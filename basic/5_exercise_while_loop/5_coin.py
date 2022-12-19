@@ -1,0 +1,40 @@
+change_value = float(input()) * 100
+change_loop = True
+coins = 0
+coins_200 = 0
+coins_100 = 0
+coins_50 = 0
+coins_20 = 0
+coins_10 = 0
+coins_5 = 0
+coins_2 = 0
+coins_1 = 0
+
+while change_loop:
+    if change_value >= 200:
+        coins_200 = change_value // 200
+        change_value = change_value - coins_200*200
+    if change_value >= 100:
+        coins_100 = change_value // 100
+        change_value = change_value - coins_100*100
+    if change_value >= 50:
+        coins_50 = change_value // 50
+        change_value = change_value - coins_50*50
+    if change_value >= 20:
+        coins_20 = change_value // 20
+        change_value = change_value - coins_20*20
+    if change_value >= 10:
+        coins_10 = change_value // 10
+        change_value = change_value - coins_10*10
+    if change_value >= 5:
+        coins_5 = change_value // 5
+        change_value = change_value - coins_5*5
+    if change_value >= 2:
+        coins_2 = change_value // 2
+        change_value = change_value - coins_2*2
+    if change_value >= 1:
+        coins_1 = change_value // 1
+        change_value = change_value - coins_1*1
+    coins = coins_1 + coins_2 + coins_5 + coins_10 + coins_20 + coins_50 + coins_100 + coins_200
+    change_loop = False
+print(round(coins))
