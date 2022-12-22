@@ -5,4 +5,4 @@ division_number = int(input())
 division_result = addition_numbers / division_number
 multiplication_number = int(input())
 multiplication_result = int(division_result) * multiplication_number
-print((multiplication_result))
+print(multiplication_result)
