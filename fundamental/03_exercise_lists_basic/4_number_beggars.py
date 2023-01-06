@@ -2,8 +2,19 @@ rewards = input()
 beggars_count = int(input())
 rewards_list = rewards.split(", ")
 beggars_given_rewards = []
-for beggar_order, reward in enumerate(rewards_list):
-    print(beggar_order + 1, reward)
-    beggars_given_rewards.insert()
+beggar_order = 0
+reward_sum = 0
+
+for beggar in range(beggars_count):
+    beggars_given_rewards.append(0)
+
+for current_reward in rewards_list:
+    beggar_order += 1
+    reward_sum = int(current_reward) + int(beggars_given_rewards[beggar_order-1])
+    beggars_given_rewards[beggar_order-1] = reward_sum
+
+    if beggar_order == beggars_count:
+        beggar_order = 0
 
 print(beggars_given_rewards)
+
