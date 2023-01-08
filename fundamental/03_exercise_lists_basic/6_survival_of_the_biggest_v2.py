@@ -1,8 +1,4 @@
-numbers_list_str = input().split()
-numbers_list = []
-for value in numbers_list_str:
-    value = int(value)
-    numbers_list.append(value)
+numbers_list = [int(x) for x in input().split()]
 
 numbers_to_be_removed = int(input())
 working_number_list = sorted(numbers_list)

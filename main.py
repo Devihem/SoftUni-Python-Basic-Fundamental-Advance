@@ -1,3 +1,5 @@
-x = [int(x) for x in input().split()]
-print(x)
-print(type(x[3]))
+x = input().split()
+y = []
+for item in x:
+    item = int(item)
+    y.append(item)
