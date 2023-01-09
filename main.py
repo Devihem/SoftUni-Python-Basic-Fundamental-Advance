@@ -1,5 +1,3 @@
-x = input().split()
-y = []
-for item in x:
-    item = int(item)
-    y.append(item)
+x = 1 2 3
+y = int(x)
+print(y)
