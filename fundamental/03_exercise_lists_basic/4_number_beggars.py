@@ -1,6 +1,5 @@
-rewards = input()
+rewards_list = input().split(", ")
 beggars_count = int(input())
-rewards_list = rewards.split(", ")
 beggars_given_rewards = []
 beggar_order = 0
 reward_sum = 0

@@ -1,9 +1,8 @@
-players_with_red_card = input()
+players_with_red_card_list = input().split(" ")
+players_with_red_card_list_filtered = []
 flag = False
 a_team_players = 11
 b_team_players = 11
-players_with_red_card_list = players_with_red_card.split(" ")
-players_with_red_card_list_filtered = []
 
 for player in players_with_red_card_list:
     if player not in players_with_red_card_list_filtered:
