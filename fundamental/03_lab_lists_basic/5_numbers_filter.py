@@ -7,7 +7,6 @@ for new_number in range(0, number_of_lines):
     number_list.append(new_number_input)
 
 format_command = input()
-# zero count as a positive and even
 for item in number_list:
     if format_command == "even":
         if item % 2 == 0:
