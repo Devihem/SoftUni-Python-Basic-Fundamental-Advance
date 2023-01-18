@@ -22,8 +22,6 @@ for event in day_events_list:
             print(f"You earned {points} coins.")
         else:
             energy += 50
-            if energy > 100:
-                energy = 100
             print("You had to rest!")
 
     else:

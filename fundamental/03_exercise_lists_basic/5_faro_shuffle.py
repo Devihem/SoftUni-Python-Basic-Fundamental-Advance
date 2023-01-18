@@ -1,6 +1,5 @@
-items_for_shuffle = input()
+items_list = input().split()
 number_of_shuffles = int(input())
-items_list = items_for_shuffle.split(" ")
 shuffle_list_a = []
 shuffle_list_b = []
 
