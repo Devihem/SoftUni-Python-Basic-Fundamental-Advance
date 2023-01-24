@@ -15,15 +15,13 @@ def pass_validation_4_9(string):
 def pass_length_validator_4_9_a(string):
     if 6 <= len(string) <= 10:
         return True
-    else:
-        return False
+    return False
 
 
 def pass_letters_digits_letters_only_4_9_b(string):
     if string.isalnum():
         return True
-    else:
-        return False
+    return False
 
 
 def pass_min_2_digit_4_9_c(string):
@@ -33,8 +31,7 @@ def pass_min_2_digit_4_9_c(string):
             count += 1
     if count >= 2:
         return True
-    else:
-        return False
+    return False
 
 
 user_input_password = input()

@@ -1,6 +1,6 @@
-def making_ord_to_char_list_4_3(starting_symbol,final_symbol):
+def making_ord_to_char_list_4_3(starting_symbol: str,final_symbol:str):
     list_ascii_numbers = []
-    for ascii_ord in range(ord(starting_symbol_excluded) + 1, ord(final_symbol_excluded)):
+    for ascii_ord in range(ord(starting_symbol) + 1, ord(final_symbol)):
         list_ascii_numbers.append(chr(ascii_ord))
     return list_ascii_numbers
 
