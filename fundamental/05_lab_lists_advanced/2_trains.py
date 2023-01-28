@@ -1,4 +1,4 @@
-wagon_numbers = [0 for x in range(0, int(input()))]
+wagon_numbers = [0] * int(input())
 
 while True:
     command = input().split()

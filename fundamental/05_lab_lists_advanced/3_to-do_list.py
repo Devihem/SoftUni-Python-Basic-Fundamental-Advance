@@ -1,5 +1,4 @@
 to_do_list = ["0"] * 10
-
 while True:
     command = input().split("-")
     if command[0] == "End":
