@@ -9,6 +9,6 @@ else:
         max_value_index = money_distribution.index(max_value)
         min_value = min(money_distribution)
         min_value_index = money_distribution.index(min_value)
-        money_distribution[max_value_index] -= 1
-        money_distribution[min_value_index] += 1
+        money_distribution[max_value_index] -= equilibrium_value - min_value
+        money_distribution[min_value_index] += equilibrium_value - min_value
     print(money_distribution)
