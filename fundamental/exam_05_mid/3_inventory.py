@@ -16,10 +16,11 @@ while True:
         old_item, new_item = command[1].split(':')
         if old_item in inventory_list:
             old_item_index = inventory_list.index(old_item)
-            inventory_list.insert(old_item_index +1, new_item)
+            inventory_list.insert(old_item_index + 1, new_item)
     elif command[0] == "Renew":
         if item in inventory_list:
-            inventory_list.append(item)
             inventory_list.remove(item)
+            inventory_list.append(item)
+
 
 print(*inventory_list, sep=", ")
