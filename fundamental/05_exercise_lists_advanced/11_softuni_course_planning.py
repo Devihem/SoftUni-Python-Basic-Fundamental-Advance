@@ -1,5 +1,4 @@
 schedule = input().split(", ")
-# schedule = ["Arrays", "Databases", "Databases-Exercise", "Methods", "Lists", "Lists-Exercise"]
 
 while True:
     command = input().split(":")
@@ -17,7 +16,6 @@ while True:
             schedule.insert(index, task)
 
     elif option == "Remove":
-        # What if it's in the list more than once ?
         if task in schedule:
             schedule.remove(task)
             if task + "Exercise" in schedule:
@@ -42,7 +40,6 @@ while True:
             schedule.append(task + "-Exercise")
         elif task + "-Exercise" not in schedule:
             schedule.insert(schedule.index(task) + 1, task + "-Exercise")
-        pass
-schedule = [str(index + 1) + "." + item for index, item in enumerate(schedule)]
 
+schedule = [str(index + 1) + "." + item for index, item in enumerate(schedule)]
 print("\n".join(schedule))
