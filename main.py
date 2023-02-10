@@ -1,4 +1,4 @@
-lst = ["Medallion", "Cup", "Gold"]
-x = list(reversed(lst))
-print(lst)
-print(x)
+col = 0
+while True:
+     col += 1 * 2
+     print(col)
