@@ -19,11 +19,11 @@ class Zoo:
     def get_info(self, species):
         result = ""
         if species == "mammal":
-            result += f"Mammals in {self.zoo_name}: {''.join(self.mammals)}\nTotal animals:{zoo.__animals}"
+            result += f"Mammals in {self.zoo_name}: {', '.join(self.mammals)}\nTotal animals: {zoo.__animals}"
         elif species == "fish":
-            result += f"Fishes in {self.zoo_name}: {''.join(self.fishes)}\nTotal animals:{zoo.__animals}"
+            result += f"Fishes in {self.zoo_name}: {', '.join(self.fishes)}\nTotal animals: {zoo.__animals}"
         elif species == "bird":
-            result += f"Birds in {self.zoo_name}: {''.join(self.birds)}\nTotal animals:{zoo.__animals}"
+            result += f"Birds in {self.zoo_name}: {', '.join(self.birds)}\nTotal animals: {zoo.__animals}"
         return result
 
 
