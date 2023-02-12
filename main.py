@@ -1,4 +1,2 @@
-col = 0
-while True:
-     col += 1 * 2
-     print(col)
+lst = ["Asadasd", "Sasdsada", "Dasdsada", "Aasdsada", "Zsadasda" ]
+print([item for item in lst if item.startswith("A")])
