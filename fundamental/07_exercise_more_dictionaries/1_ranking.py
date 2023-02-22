@@ -31,14 +31,9 @@ while True:
 for key in contest_dict:
     ranking_dict[key] = sum(contest_dict[key].values())
 
-# ranking_dict_sorted = sorted(ranking_dict.items()).copy()
-# print(ranking_dict_sorted)
-#
-# best_candidate = (max(ranking_dict_sorted))
-print(best_candidate)
+max_score = (max(ranking_dict, key=ranking_dict.get))
 
-
-print(f"Best candidate is {best_candidate[0]} with total {best_candidate[1]} points.")
+print(f"Best candidate is {max_score} with total {ranking_dict[max_score]} points.")
 print("Ranking:")
 
 alphabetic_order_dict = sorted(contest_dict)
