@@ -8,8 +8,8 @@ while counter != 16:
     number = number // 2
 lst = list(bit_number)
 lst[15 - find_index] = 0
-
 lst = list(reversed(lst))
+
 final_sum = 0
 for index, item in enumerate(lst):
     if int(item) == 1:
