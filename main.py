@@ -1,22 +1,22 @@
-x = {'Peter': {'Adc': 400}, 'Bush': {'Tank': 150, 'Mid': 200, 'Support': 220 }, 'Devihem': {'Adc': 400},
-     'Frank': {'Mid': 200, 'Support': 250, 'Tank': 250}}
-print(x["Peter"].keys())
-print(x)
+items = input()
+dwarfs = {}
+colors = {}
+while items != "Once upon a time":
+    tokens = items.split(" <:> ")
+    name = tokens[0]
+    color = tokens[1]
+    physics = int(tokens[2])
+    id = name + ":" + color
+    if id not in dwarfs:
+        if color not in colors:
+            colors[color] = 1
+        else:
+            colors[color] += 1
+        dwarfs[id] = [0, color]
+    dwarfs[id][0] = max([dwarfs[id][0], physics])
+    items = input()
 
-# Top 1 1900
-# Adc - 1000
-# Mid - 900
-# Top 2  AAA - 600
-# Adc - 150
-# Hup - 150
-# Sup - 150
-# Zup - 150
-# Top 3  AAB - 600
-# Top 4  ACD - 600
-# Top 5 300
-#
-#
-#
-#
-#
-#
+sorted_dwrafs = dict(sorted(dwarfs.items(), key=lambda x: (x[1][0], colors[x[1][1]]), reverse=True))
+for key, value in sorted_dwrafs.items():
+    tokens = key.split(":")
+    print(f"({tokens[1]}) {tokens[0]} <-> {value[0]}")
