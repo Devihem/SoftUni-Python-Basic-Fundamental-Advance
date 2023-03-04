@@ -6,8 +6,10 @@ while counter != 16:
     counter += 1
     bit_number = str(number % 2) + bit_number
     number = number // 2
+
 lst = list(bit_number)
-lst[15 - find_index] = 0
+if 0 <= find_index <= 15:
+    lst[(15 - find_index)] = 0
 lst = list(reversed(lst))
 
 final_sum = 0
