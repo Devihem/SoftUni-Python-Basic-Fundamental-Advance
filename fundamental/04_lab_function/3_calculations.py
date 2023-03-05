@@ -2,7 +2,7 @@ def calculator_4_3(number1, number2, str_operator):
     if str_operator == "multiply":
         return number1 * number2
     elif str_operator == "divide":
-        return number1 / number2
+        return int(number1 / number2)
     elif str_operator == "add":
         return number1 + number2
     elif str_operator == "subtract":
