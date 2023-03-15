@@ -1,6 +1,6 @@
 import re
 
-pattern = r"www[.][a-zA-Z0-9]+(-[a-zA-Z0-9]+)*[.][A-Za-z]+(.[a-z]+)*"
+pattern = r"www[.][a-zA-Z0-9]+(-[a-zA-Z0-9]+)*[.][a-z]+(.[a-z]+)*"
 website_list = []
 text = input()
 while text:
