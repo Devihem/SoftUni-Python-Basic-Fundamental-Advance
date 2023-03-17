@@ -27,9 +27,10 @@ def demon_multiplier_dmg(demon_dmg_pure: float, multiplier_symbols: list):
 
 
 pattern_hp = r"[^0-9\+\-\*\/\.]"
-pattern_dmg = r"([\+\-]?[\d+][.]?[\d]*)"
+pattern_dmg = r"([\+\-]?[\d]+[.]?[\d]*)"
 pattern_multiplier = r"([\*\/])"
-demon_names_list = sorted(input().split(", "))
+demon_names_list = [demon_name.strip() for demon_name in input().split(",")]
+demon_names_list = sorted(demon_names_list)
 for demon in demon_names_list:
     match_hp = re.findall(pattern_hp, demon)
     match_dmg = re.findall(pattern_dmg, demon)
@@ -37,10 +38,4 @@ for demon in demon_names_list:
     demon_health = demon_hp(match_hp)
     demon_damage = demon_dmg(match_dmg)
     demon_damage = demon_multiplier_dmg(demon_damage, match_multiplier)
-    # print(demon)
-    # print(match_hp)
-    # print(match_dmg)
-    # print(match_multiplier)
-    # print(demon_health)
-    # print(demon_damage)
     print(f"{demon} - {demon_health} health, {demon_damage:.2f} damage")
