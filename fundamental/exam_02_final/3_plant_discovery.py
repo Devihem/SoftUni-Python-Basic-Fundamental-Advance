@@ -1,9 +1,11 @@
-plant_dictionary = {}
+plant_rarity_dictionary = {}
+plant_rating_dictionary = {}
 dictionary_input = int(input())
 
 for data in range(dictionary_input):
     new_plant, rarity = input().split("<->")
-    plant_dictionary[new_plant] = {rarity: []}
+    plant_rarity_dictionary[new_plant] = rarity
+    plant_rating_dictionary[new_plant] = []
 
 while True:
 
@@ -11,20 +13,36 @@ while True:
     if command[0] == "Exhibition":
         break
 
+    info_given = command[1].split(" - ")
+    plant = info_given[0]
+
+    if plant not in plant_rarity_dictionary:
+        print("error")
+
     # Command Rate
     elif command[0] == "Rate":
-        plant, rating = command[1].split(" - ")
-        rarity_key = ""
-        for r_key in plant_dictionary[plant].keys():
-            rarity_key = r_key
-        plant_dictionary[plant][rarity_key].append(rating)
-        pass
+        rating = info_given[1]
+        plant_rating_dictionary[plant].append(int(rating))
 
     # Command Update
     elif command[0] == "Update":
-        pass
+        new_rarity = info_given[1]
+        plant_rarity_dictionary[plant] = new_rarity
+
     # Command Reset
     elif command[0] == "Reset":
-        pass
+        plant_rating_dictionary[plant] = []
 
-print(plant_dictionary.items())
+for plant in plant_rating_dictionary.keys():
+    total_rating = sum(plant_rating_dictionary[plant])
+    if total_rating > 0:
+        average_rating = total_rating / len(plant_rating_dictionary[plant])
+    else:
+        average_rating = total_rating
+    plant_rating_dictionary[plant] = average_rating
+
+print("Plants for the exhibition:")
+for plant_print in plant_rarity_dictionary.keys():
+    print(f"- {plant_print};"
+          f" Rarity: {plant_rarity_dictionary[plant_print]};"
+          f" Rating: {plant_rating_dictionary[plant_print]:.2f}")
