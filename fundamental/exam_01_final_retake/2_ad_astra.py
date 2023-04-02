@@ -10,7 +10,6 @@ food_finder_pattern = r"[#]([a-zA-Z]+[\s]*[a-zA-Z]*)#([\d]{2}\/[\d]{2}\/[\d]{2})
                       r"[\|]([a-zA-Z]+\s*[a-zA-Z]*)[\|]([\d]{2}\/[\d]{2}\/[\d]{2})[\|](\d+)[\|]"
 food_info_match = re.findall(food_finder_pattern, food_text_input)
 
-
 for food in food_info_match:
     current_list = []
     for data in food:
