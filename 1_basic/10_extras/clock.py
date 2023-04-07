@@ -2,7 +2,7 @@ from time import strftime
 from tkinter import *
 
 root = Tk()
-root.title("Devihem basic Clock")
+root.title("Devihem 1_basic Clock")
 
 
 def clock():
