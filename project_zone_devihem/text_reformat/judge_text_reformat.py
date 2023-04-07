@@ -1,3 +1,4 @@
+# basic  text reformator for softuni judge  - made at the beginning of fundamental
 soft_uni_list = input().split("0")
 final_look = []
 for index, item in enumerate(soft_uni_list):
