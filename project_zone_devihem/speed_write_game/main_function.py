@@ -6,9 +6,10 @@ characters_string_to_list = list(keyboard_programing_characters)
 starting_random_symbol = "@@@"
 print("    PRESS ENTER FOR START \n""            OR      \n""INPUT STOP TO END THE TRAIL")
 game_starting_time = time.perf_counter()
+game_play_time_seconds = 20
 score = 0
 
-while game_starting_time + 20 >= time.perf_counter():
+while game_starting_time + game_play_time_seconds >= time.perf_counter():
 
     command = input(":")
     if command.lower() == "stop":
