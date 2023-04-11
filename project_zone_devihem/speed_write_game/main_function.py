@@ -1,5 +1,15 @@
 import random
 import time
+import tkinter
+from tkinter import *
+
+tk_game = tkinter.Tk()
+tk_game.title("Devihem Speed_Type_Game v1")
+frame = tkinter.Frame(tk_game, relief=RIDGE, borderwidth=2)
+frame.pack(fill=BOTH,expand=1)
+label = tkinter.Label(frame, text="Hello, World")
+label.pack(fill=X, expand=1)
+
 
 keyboard_programing_characters = "\\qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890-=+_)(*^%$#!|{}<>?"
 characters_string_to_list = list(keyboard_programing_characters)
@@ -23,3 +33,4 @@ while game_starting_time + game_play_time_seconds >= time.perf_counter():
         score -= 1
 
 print(score)
+mainloop()
