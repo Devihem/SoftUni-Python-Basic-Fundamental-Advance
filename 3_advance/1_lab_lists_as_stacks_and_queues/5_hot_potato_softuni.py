@@ -2,7 +2,6 @@ from _collections import deque
 
 kids_circle = deque(input().split())
 hot_potato_index = int(input())
-new_circle = []
 counter = 0
 
 while len(kids_circle) > 1:
