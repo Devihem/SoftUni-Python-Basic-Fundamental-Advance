@@ -1,17 +1,5 @@
 from collections import deque
-
-
-def working_clock(time_list):
-    time_list[2] += 1
-    if time_list[2] == 60:
-        time_list[2] = 0
-        time_list[1] += 1
-        if time_list[1] == 60:
-            time_list[1] = 0
-            time_list[0] += 1
-            if time_list[0] == 24:
-                time_list[0] = 0
-    return time_list
+from datetime import datetime, timedelta
 
 
 def robots_ended_work(working_robots_list: deque):
@@ -47,8 +35,7 @@ free_robots = deque(robots_info)
 working_robots = deque([])
 
 # Starting Time
-starting_time = [int(x) for x in input().split(":")]
-current_time = starting_time
+current_time = datetime.strptime(input(), '%H:%M:%S')
 # Test Zone
 product_line_queue = deque([])
 
@@ -60,15 +47,14 @@ while True:
     product_line_queue.append(new_product)
 
 while product_line_queue:
-
-    current_time = working_clock(starting_time)
+    current_time += timedelta(0, 1)
     next_item = product_line_queue.popleft()
 
     if free_robots:
         # Working process step by step
         free_robot_to_work = free_robots.popleft()
         print(f"{free_robot_to_work[0]} - {next_item}"
-              f" [{current_time[0]:02d}:{current_time[1]:02d}:{current_time[2]:02d}]")
+              f" [{current_time.strftime('%H:%M:%S')}]")
         robot_process_time = free_robot_to_work[1]
         free_robot_to_work.append(robot_process_time)
         working_robots.append(free_robot_to_work)
