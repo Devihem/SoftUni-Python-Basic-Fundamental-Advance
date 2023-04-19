@@ -39,7 +39,7 @@ while True:
         break
 
     elif command == "green":
-        car_queue , total_car_count = road_crossing(green_light_time, free_pass_time, car_queue, total_car_count)
+        car_queue, total_car_count = road_crossing(green_light_time, free_pass_time, car_queue, total_car_count)
 
     else:
         car_queue.append(command)
