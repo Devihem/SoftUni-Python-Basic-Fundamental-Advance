@@ -23,7 +23,7 @@ for _ in range(int(input())):
         subset_list_check = [first_set.issubset(second_set), second_set.issubset(first_set)]
         if True in subset_list_check:
             print("True")
-        else:
+        elif True not in subset_list_check:
             print("False")
 
 print(', '.join(sorted(first_set)))
