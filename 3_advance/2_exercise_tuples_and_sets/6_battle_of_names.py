@@ -13,8 +13,8 @@ for row in range(int(input())):
         even_set.add(ascii_sum)
 
 if sum(even_set) == sum(odd_set):
-    print(*(odd_set.union(even_set)), sep=', ')
+    print(*odd_set.union(even_set), sep=', ')
 elif sum(even_set) < sum(odd_set):
-    print(*(odd_set.difference(even_set)), sep=', ')
+    print(*odd_set.difference(even_set), sep=', ')
 elif sum(even_set) > sum(odd_set):
-    print(*(odd_set.symmetric_difference(even_set)), sep=', ')
+    print(*odd_set.symmetric_difference(even_set), sep=', ')
