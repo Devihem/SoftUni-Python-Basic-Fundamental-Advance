@@ -10,7 +10,7 @@ def winner_check(grid_list: list, l_column: int, l_row: int):
 
 
 def terminal_visualisation(grid_list: list):
-
+    # Print the game board grid in terminal for visualisation
     print(f"    {' | '.join(['1', '2', '3'])}"
           f"\n  • • • • • • •"
           f"\n1 • {' | '.join(grid_list[0])} •"
@@ -21,43 +21,75 @@ def terminal_visualisation(grid_list: list):
           f"\n  • • • • • • •")
 
 
+def player_info(number_of_moves: int):
+    # Set and Return player name and symbol.
+    # Player One with [X] and Player Two with [O] based on the game current move.
+    if number_of_moves % 2 == 1:
+        p_symbol = "X"
+        p_name = "Player One"
+    else:
+        p_symbol = "O"
+        p_name = "Player Two"
+    return p_symbol, p_name
+
+
+def player_input():
+    # After entering the input cast it to player_input_validator().
+    # If input is correct it will return valid row and column otherwise will print Invalid.
+    player_mark_place = input(f'\n     -= {player_name} =- '
+                              f'\nPick where to place [{player_symbol}] mark!'
+                              f'\n[row-column]:').split('-')
+
+    row_valid, column_valid = player_input_validator(player_mark_place)
+    return row_valid, column_valid
+
+
+def player_input_validator(user_input: list):
+    # Validating the input for Digits and Correct index.
+    # ( using.isdigit and strip to eliminate negative numbers or other mistakes)
+    if len(user_input) == 2 and user_input[0].isdigit() and user_input[1].isdigit():
+        # For correct index in the grid list - adding int(move)-1 for row and column
+        row_index = int(user_input[0]) - 1
+        column_index = int(user_input[1]) - 1
+        if 0 <= column_index < 3 and 0 <= row_index < 3:
+            if game_grid[row_index][column_index] == ' ':
+                return row_index, column_index
+
+    # If input is incorrect print - INVALID INPUT -
+    print("\n• • • • • • • • •\n• INVALID INPUT •\n• • • • • • • • •\n")
+    return player_input()
+
+
+def end_game_print(board, pl_symbol, pl_name, flag_winner):
+    terminal_visualisation(board)
+    if flag_winner:
+        print(f"\n• • • • • • • • • • •"
+              f"\n•      WINNER       •"
+              f"\n• {pl_name} — [{pl_symbol}]  •"
+              f"\n• • • • • • • • • • •")
+    else:
+        print("\n• • • • • • • • •\n•  GAME — DRAW  •\n• • • • • • • • •\n")
+
+
 # Starting_variable and board 3x3
 winner_flag = False
-move_counter = 0
+moves = 0
 player_symbol = ''
-game_grid = [
-    [' ', ' ', ' '],
-    [' ', ' ', ' '],
-    [' ', ' ', ' ']
-]
+player_name = ''
+max_moves = 9
+game_grid = [[' ' for _ in range(3)] for _ in range(3)]
 
-while not winner_flag and move_counter < 9:
-    move_counter += 1
+while not winner_flag and moves < max_moves:
+    moves += 1
 
-    # Set Player - One with [X] and Player - Two with [O]
-    if move_counter % 2 == 1:
-        player_symbol = "X"
-        player_name = "Player One"
-    else:
-        player_symbol = "O"
-        player_name = "Player Two"
+    # Returning the player in move -  Symbol and Name
+    player_symbol, player_name = player_info(moves)
 
     # Printing the board in terminal
     terminal_visualisation(game_grid)
 
-    # Validating the move, using .isdigit and strip to eliminate negative numbers or other mistakes.
-    while True:
-        player_move = input(f'\n     -= {player_name} =- \nPick where to place [{player_symbol}] mark!\n[row-column]:').split('-')
-        if len(player_move) == 2 and player_move[0].isdigit() and player_move[1].isdigit():
-
-            # For correct index in the grid list - adding int(move)-1
-            row = int(player_move[0]) - 1
-            column = int(player_move[1]) - 1
-            if 0 <= column < 3 and 0 <= row < 3:
-                if game_grid[row][column] == ' ':
-                    break
-        # If incorrect print - INVALID INPUT -
-        print("\n• • • • • • • • •\n• INVALID INPUT •\n• • • • • • • • •\n")
+    # Player input and Validating the input if it's correct
+    row, column = player_input()
 
     # Placing symbol in the grid
     game_grid[row][column] = player_symbol
@@ -65,8 +97,4 @@ while not winner_flag and move_counter < 9:
     # Checking the grid for winner
     winner_flag = winner_check(game_grid, column, row)
 
-terminal_visualisation(game_grid)
-if winner_flag:
-    print(f"\n\n Winner is PLAYER -= {player_symbol} =-")
-else:
-    print("\n• • • • • • • • •\n• GAME - DRAW  •\n• • • • • • • • •\n")
+end_game_print(game_grid, player_symbol, player_name, winner_flag)
