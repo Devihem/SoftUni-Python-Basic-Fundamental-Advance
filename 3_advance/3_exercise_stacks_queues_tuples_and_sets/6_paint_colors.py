@@ -1,11 +1,10 @@
-from collections import  deque
+from collections import deque
 
 substrings = deque(input().split())
-
 main_colors = ['red', 'yellow', 'blue']
 secondary_colors = ['orange', 'purple', 'green']
-
 founded_colors = []
+
 while substrings:
 
     first_symbols = substrings.popleft()
@@ -26,11 +25,10 @@ while substrings:
     elif created_string_2 in secondary_colors:
         founded_colors.append(created_string_2)
     else:
-        # if len(substrings) > 1:
-        split_index = (len(substrings)-1)//2
+        split_index = (len(substrings) - 1) // 2
         new_list = [first_symbols[:-1], second_symbol[:-1]]
         substrings = list(substrings)
-        substrings = substrings[0:split_index+1] + new_list + substrings[split_index+1:]
+        substrings = substrings[0:split_index + 1] + new_list + substrings[split_index + 1:]
         substrings = deque([x for x in substrings if x != ''])
 
 final_color_list = []
