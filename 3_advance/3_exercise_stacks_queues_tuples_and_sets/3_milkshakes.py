@@ -8,6 +8,7 @@ while milkshakes < 5 and milks and chocolates:
 
     current_milk = milks.popleft()
     current_chocolate = chocolates.pop()
+
     if current_milk <= 0 and current_chocolate <= 0:
         continue
     elif current_chocolate <= 0:
@@ -21,7 +22,7 @@ while milkshakes < 5 and milks and chocolates:
         milkshakes += 1
     else:
         milks.append(current_milk)
-        chocolates.append(current_chocolate + (- 5))
+        chocolates.append(current_chocolate - 5)
 
 if milkshakes == 5:
     print("Great! You made all the chocolate milkshakes needed!")

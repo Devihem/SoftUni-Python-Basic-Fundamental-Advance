@@ -1,9 +1,5 @@
-bana = {1, 2, 3, 4, 5, 6}
-nana = {7, 8}
+from collections import deque
 
-function = {
-    'ADD': lambda x,y: [x.union(y)],
-}
+x = deque([20, 10, -5])
 
-z = function["ADD"](bana,nana)
-print(z)
+print(*list(reversed(x)))
