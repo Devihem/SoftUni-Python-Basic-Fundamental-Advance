@@ -8,10 +8,7 @@ founded_colors = []
 while substrings:
 
     first_symbols = substrings.popleft()
-    if substrings:
-        second_symbol = substrings.pop()
-    else:
-        second_symbol = ''
+    second_symbol = substrings.pop() if substrings else ''
 
     created_string_1 = first_symbols + second_symbol
     created_string_2 = second_symbol + first_symbols
