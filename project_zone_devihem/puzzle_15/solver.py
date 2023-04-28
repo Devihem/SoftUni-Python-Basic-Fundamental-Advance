@@ -66,7 +66,7 @@ puzzle_grid = [[' □', ' 2', ' 3', ' 4'], [' 5', ' 6', ' 7', ' 8'], [' 9', '10'
 
 moves, solution = solve(puzzle_grid)
 
-if solution is not None:
+if solution is not None:wheel
     print(f"Solved in {moves} moves:\n{solution}")
 else:
     print("Unable to solve puzzle.")
