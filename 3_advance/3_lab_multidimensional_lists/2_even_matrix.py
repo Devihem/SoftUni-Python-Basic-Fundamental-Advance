@@ -1,9 +1,5 @@
-rows= input()
-new_matrix = [[int(x)  if x % 2 == 0 else "" for x in input().split(", ")] for _ in range(int(rows))]
-max_sum = 0
-for row in new_matrix:
-    for number in row:
-        max_sum += number
+rows = int(input())
 
-print(max_sum)
+new_matrix = [[x for x in input().split(", ") if int(x) % 2 == 0] for _ in range(rows)]
+
 print(new_matrix)
