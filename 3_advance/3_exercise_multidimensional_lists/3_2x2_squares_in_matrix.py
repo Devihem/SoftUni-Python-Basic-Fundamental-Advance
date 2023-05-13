@@ -1,23 +1,20 @@
-number_of_rows, number_of_columns = map(int, input().split(', '))
+number_of_rows, number_of_columns = map(int, input().split(' '))
 
-matrix = [[row for row in input().split(', ')] for _ in range(number_of_rows)]
-max_2_2_sub_matrix_sum = 0
-max_2_2_sub_matrix = []
+matrix = [[row for row in input().split(' ')] for _ in range(number_of_rows)]
+total_same_blocks = 0
 
 for row in range(number_of_rows - 1):
     for column in range(number_of_columns - 1):
-        current_sum = 0
-        current_matrix = []
+        current_symbol = matrix[row][column]
+        current_counter = 0
         for sub_row in range(row, row + 2):
-            sub_current_matrix = []
             for sub_column in range(column, column + 2):
-                sub_current_matrix.append(int(matrix[sub_row][sub_column]))
-                current_sum += int(matrix[sub_row][sub_column])
-            current_matrix += [sub_current_matrix]
+                if matrix[sub_row][sub_column] != current_symbol:
+                    break
+                else:
+                    current_counter += 1
 
-        if current_sum > max_2_2_sub_matrix_sum:
-            max_2_2_sub_matrix_sum = current_sum
-            max_2_2_sub_matrix = current_matrix
+        if current_counter == 4:
+            total_same_blocks += 1
 
-[print(*row) for row in max_2_2_sub_matrix]
-print(max_2_2_sub_matrix_sum)
+print(total_same_blocks)
