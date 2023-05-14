@@ -18,3 +18,6 @@ for index, item in enumerate(soft_uni_list):
         working_box = working_box_2.lower()
         final_look.append(working_box)
 print(*final_look, sep="")
+
+
+# Fixing and re-creating the file to do the stuff by itself based on link

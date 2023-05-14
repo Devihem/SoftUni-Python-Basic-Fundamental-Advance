@@ -17,7 +17,6 @@ def create_random_puzzle_board():
 
 
 def finding_empty_box(puzzle_grid_map: list):
-
     for row in range(4):
         for column in range(4):
             if puzzle_grid[row][column] == ' □':
@@ -71,9 +70,6 @@ while puzzle_grid != pattern_grid:
     # FINDING ZERO ( mapping ? )
     zero_row, zero_column = finding_empty_box(puzzle_grid)
 
-
-
-
     # UP
     if user_input == 'W' and zero_row > 0:
         puzzle_grid[zero_row][zero_column], puzzle_grid[zero_row - 1][zero_column] \
@@ -96,3 +92,8 @@ while puzzle_grid != pattern_grid:
 else:
     print("WINNERRR")
     print(printing_the_board(puzzle_grid))
+
+# FIX - SOLVABLE OR NOR  - FORMULA
+# ADDING - SELF SOLVER
+# Terminal VISULATION FIX SOMEHOW
+# Common FIX OF CODE FOR GIT HUB

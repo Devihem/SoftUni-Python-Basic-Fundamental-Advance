@@ -98,3 +98,5 @@ while not winner_flag and moves < max_moves:
     winner_flag = winner_check(game_grid, column, row)
 
 end_game_print(game_grid, player_symbol, player_name, winner_flag)
+
+# Adding everything from the Review

@@ -34,3 +34,7 @@ while game_starting_time + game_play_time_seconds >= time.perf_counter():
 
 print(score)
 mainloop()
+
+
+# Making Window Panel
+# Making the idea Better and progressive

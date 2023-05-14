@@ -1,7 +1,7 @@
 number_of_rows, number_of_columns = map(int, input().split(' '))
 
 matrix = [[row for row in input().split(' ')] for _ in range(number_of_rows)]
-max_3_3_sub_matrix_sum = -10000000
+max_3_3_sub_matrix_sum = float('-inf')
 max_3_3_sub_matrix = []
 
 for row in range(number_of_rows - 2):
