@@ -136,8 +136,8 @@ while True:
     maze_r_c, needed_moves = kate_move_direction(kate_row, kate_column, maze_r_c, needed_moves)
 
     # ( Un-comment Line 139 & 140 for Visual representation )
-    # print(*maze_r_c, sep="\n")
-    # print("-------------------------------")
+    print(*maze_r_c, sep="\n")
+    print("-------------------------------")
 
     if maze_r_c == "END":
         break
@@ -146,3 +146,4 @@ if one_way_out:
     print(f"Kate got out in {max_moves} moves")
 else:
     print("Kate cannot get out")
+

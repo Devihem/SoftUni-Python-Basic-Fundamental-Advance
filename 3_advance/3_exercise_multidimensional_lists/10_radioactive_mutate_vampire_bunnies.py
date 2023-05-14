@@ -19,21 +19,21 @@ def player_movement_func(map_maze: list, move_command: str, player_row: int, pla
 
     elif move_command == 'D' and player_row < max_row - 1:
         map_maze[player_row][player_col] = '.'
-        if map_maze[player_row + 1][player_col] == '.':
+        if map_maze[player_row + 1][player_col] == 'B':
             dead_flag = True
         map_maze[player_row + 1][player_col] = 'P'
 
     elif move_command == 'L' and player_col > 0:
         map_maze[player_row][player_col] = '.'
-        if map_maze[player_row][player_col - 1] == '.P':
+        if map_maze[player_row][player_col - 1] == 'B':
             dead_flag = True
         map_maze[player_row][player_col - 1] = 'P'
 
     elif move_command == 'R' and player_col < max_col - 1:
         map_maze[player_row][player_col] = '.'
-        if map_maze[player_row + 1][player_col] == '.':
+        if map_maze[player_row][player_col + 1] == 'B':
             dead_flag = True
-        map_maze[player_row + 1][player_col] = 'P'
+        map_maze[player_row][player_col + 1] = 'P'
 
     return map_maze, dead_flag
 
@@ -44,14 +44,19 @@ def bunny_mutation(map_maze: list):
     for row in range(len(map_maze)):
         for column in range(len(map_maze[row])):
             if map_maze[row][column] == 'B':
-                if row > 0:
+                # UP
+                if 0 < row < len(map_maze):
                     mutated_maze[row - 1][column] = 'B'
-                if row < len(map_maze) - 1:
+                # DOWN
+                if 0 <= row < len(map_maze) - 1:
                     mutated_maze[row + 1][column] = 'B'
-                if column > 0:
+                # LEFT
+                if 0 < column < len(map_maze[row]):
                     mutated_maze[row][column - 1] = 'B'
-                if column < len(map_maze[row]) - 1:
+                # RIGHT
+                if 0 <= column < len(map_maze[row]) - 1:
                     mutated_maze[row][column + 1] = 'B'
+
     return mutated_maze
 
 

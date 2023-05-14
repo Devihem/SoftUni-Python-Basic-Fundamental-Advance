@@ -1,8 +1,9 @@
-def miner_location(maze:list):
+def miner_locations(maze: list):
     miner_location = \
         [[row, column] for column in range(len(maze)) for row in range(len(maze)) if matrix[row][column] == 's']
     m_row, m_column = miner_location[0]
     return m_row, m_column
+
 
 matrix_size = int(input())
 miner_moves = input().split()
@@ -17,7 +18,7 @@ total_coal = 0
 
 for move in miner_moves:
 
-    miner_row, miner_column = miner_location(matrix)
+    miner_row, miner_column = miner_locations(matrix)
 
     if move == 'up' and miner_row > 0:
         if matrix[miner_row - 1][miner_column] == 'e':
@@ -62,7 +63,6 @@ for move in miner_moves:
     if collected_coals_flag:
         break
 
-
 miner_row, miner_column = miner_location(matrix)
 if game_over_flag:
     print(f"Game over! ({miner_row}, {miner_column})")
@@ -70,4 +70,3 @@ elif collected_coals_flag:
     print(f"You collected all coal! ({miner_row}, {miner_column})")
 else:
     print(f"{total_coal} pieces of coal left. ({miner_row}, {miner_column})")
-
