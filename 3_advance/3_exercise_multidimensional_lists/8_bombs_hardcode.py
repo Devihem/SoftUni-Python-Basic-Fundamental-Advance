@@ -1,81 +1,34 @@
 matrix_size = int(input())
 matrix = [[int(x) for x in input().split(' ')] for row in range(matrix_size)]
-bombs_list = [x.split(',') for x in input().split()]
-total_sum = 0
+bombs_list = [[int(coordinate) for coordinate in info.split(',')] for info in input().split()]
+
+move_directions = (
+    (-1, 0),  # UP
+    (1, 0),  # DOWN
+    (0, -1),  # LEFT
+    (0, 1),  # RIGHT
+    (-1, -1),  # UP-LEFT
+    (-1, 1),  # UP-RIGHT
+    (1, -1),  # DOWN-LEFT
+    (1, 1),  # DOWN-RIGHT
+    (0, 0),  # CENTER
+)
+
 alive_cell = 0
+total_sum = 0
 
 for row_bomb, column_bomb in bombs_list:
-    current_bomb_dmg = matrix[int(row_bomb)][int(column_bomb)]
+    current_bomb_dmg = matrix[row_bomb][column_bomb]
     if current_bomb_dmg < 1:
         continue
-    # first_box_with_the_bomb - hp = 0
-    matrix[int(row_bomb)][int(column_bomb)] = 0
+    for x, y in move_directions:
+        current_row, current_col = row_bomb + x, column_bomb + y
 
-    # HARD CODE
-    row_bomb = int(row_bomb)
-    column_bomb = int(column_bomb)
-    # 1
-    try:
-        if matrix[int(row_bomb)-1][int(column_bomb)-1] > 0 and row_bomb >= 1 and column_bomb >= 1:
-            matrix[int(row_bomb)-1][int(column_bomb)-1] -= current_bomb_dmg
-    except IndexError:
-        pass
+        if 0 <= current_row < matrix_size and 0 <= current_col < matrix_size:
+            matrix[current_row][current_col] -= current_bomb_dmg if matrix[current_row][current_col] > 0 else 0
 
-    # 2
-    try:
-        if matrix[int(row_bomb) - 1][int(column_bomb)] > 0 and row_bomb >= 1 and column_bomb >= 0:
-            matrix[int(row_bomb) - 1][int(column_bomb)] -= current_bomb_dmg
-    except IndexError:
-        pass
+alive_cell = [num for row_cell in matrix for num in row_cell if int(num > 0)]
 
-    # 3
-    try:
-        if matrix[int(row_bomb) - 1][int(column_bomb) + 1] > 0 and row_bomb >= 1 and column_bomb < matrix_size - 1:
-            matrix[int(row_bomb) - 1][int(column_bomb) + 1] -= current_bomb_dmg
-    except IndexError:
-        pass
-
-    # 4
-    try:
-        if matrix[int(row_bomb)][int(column_bomb) - 1] > 0 and row_bomb >= 0 and column_bomb >= 1:
-            matrix[int(row_bomb)][int(column_bomb) - 1] -= current_bomb_dmg
-    except IndexError:
-        pass
-
-    # 6
-    try:
-        if matrix[int(row_bomb)][int(column_bomb) + 1] > 0 and row_bomb >= 0 and column_bomb < matrix_size - 1:
-            matrix[int(row_bomb)][int(column_bomb) + 1] -= current_bomb_dmg
-    except IndexError:
-        pass
-
-    # 7
-    try:
-        if matrix[int(row_bomb) + 1][int(column_bomb) - 1] > 0 and row_bomb < matrix_size - 1 and column_bomb >= 1:
-            matrix[int(row_bomb) + 1][int(column_bomb) - 1] -= current_bomb_dmg
-    except IndexError:
-        pass
-
-    # 8
-    try:
-        if matrix[int(row_bomb) + 1][int(column_bomb)] > 0 and row_bomb < matrix_size - 1 and column_bomb >= 0:
-            matrix[int(row_bomb) + 1][int(column_bomb)] -= current_bomb_dmg
-    except IndexError:
-        pass
-
-    # 9
-    try:
-        if matrix[int(row_bomb) + 1][int(column_bomb) + 1] > 0 and row_bomb < matrix_size - 1 and column_bomb < matrix_size - 1:
-            matrix[int(row_bomb) + 1][int(column_bomb) + 1] -= current_bomb_dmg
-    except IndexError:
-        pass
-
-for row_cell in matrix:
-    for el in row_cell:
-        if int(el) > 0:
-            alive_cell += 1
-            total_sum += int(el)
-
-print(f'Alive cells: {alive_cell}')
-print(f'Sum: {total_sum}')
+print(f'Alive cells: {len(alive_cell)}')
+print(f'Sum: {sum(alive_cell)}')
 [print(*row_print) for row_print in matrix]

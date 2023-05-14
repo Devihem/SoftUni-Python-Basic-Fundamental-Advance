@@ -9,17 +9,14 @@ while True:
         break
     elif new_command[0] == 'swap':
         if len(new_command) == 5:
-            for element in range(1, len(new_command), 2):
-                if (int(new_command[element])) > matrix_row:
-                    print("Invalid input!")
-                    break
-                elif (int(new_command[element + 1])) > matrix_column:
-                    print("Invalid input!")
-                    break
-            else:
+            if int(new_command[1]) < matrix_row and int(new_command[2]) < matrix_column and \
+                    int(new_command[3]) < matrix_row and int(new_command[4]) < matrix_column:
                 matrix[int(new_command[1])][int(new_command[2])], matrix[int(new_command[3])][int(new_command[4])] = \
-                matrix[int(new_command[3])][int(new_command[4])], matrix[int(new_command[1])][int(new_command[2])]
+                    matrix[int(new_command[3])][int(new_command[4])], matrix[int(new_command[1])][int(new_command[2])]
                 [print(*row) for row in matrix]
+            else:
+                print("Invalid input!")
+                continue
         else:
             print("Invalid input!")
             continue
