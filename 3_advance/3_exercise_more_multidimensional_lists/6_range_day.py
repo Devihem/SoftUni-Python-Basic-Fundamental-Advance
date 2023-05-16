@@ -31,7 +31,7 @@ for _ in range(int(input())):
     # Giving direction for both commands
     r, c = directions[direction]
 
-    # Command Move - move only on locations with '.' in the matrix for N steps.
+    # Command Move - move only on locations with '.' in the matrix for N steps ( teleport there directly ).
     if command == 'move':
         new_r, new_c = position_r + r * int(steps[0]), position_c + c * int(steps[0])
         if 0 <= new_r < 5 and 0 <= new_c < 5:
