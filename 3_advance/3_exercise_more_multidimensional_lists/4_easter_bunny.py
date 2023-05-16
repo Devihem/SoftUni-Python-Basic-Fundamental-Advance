@@ -47,7 +47,6 @@ for direction_r, direction_c, name in directions:
         winning_direction = name
 
 # Final Print
-if maximum_eggs > 0:
-    print(winning_direction)
-    print(*maximum_eggs_map, sep='\n')
-    print(maximum_eggs)
+print(winning_direction)
+print(*maximum_eggs_map, sep='\n')
+print(maximum_eggs)

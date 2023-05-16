@@ -33,13 +33,12 @@ for _ in range(int(input())):
 
     # Command Move - move only on locations with '.' in the matrix for N steps.
     if command == 'move':
-        for _ in range(int(steps[0])):
-            new_r, new_c = position_r + r, position_c + c
-            if 0 <= new_r < 5 and 0 <= new_c < 5:
-                if matrix[new_r][new_c] == '.':
-                    matrix[position_r][position_c] = '.'
-                    matrix[new_r][new_c] = 'A'
-                    position_r, position_c = new_r, new_c
+        new_r, new_c = position_r + r * int(steps[0]), position_c + c * int(steps[0])
+        if 0 <= new_r < 5 and 0 <= new_c < 5:
+            if matrix[new_r][new_c] == '.':
+                matrix[position_r][position_c] = '.'
+                matrix[new_r][new_c] = 'A'
+                position_r, position_c = new_r, new_c
 
     # Command Shoot. Bullet travel all across the grid until vanish or hit a target
     elif command == 'shoot':
