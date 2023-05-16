@@ -19,6 +19,7 @@ alice_r, alice_c = (0, 0)
 for row in range(matrix_size):
     for col in range(matrix_size):
         if matrix[row][col] == "A":
+            matrix[row][col] = "*"
             alice_r, alice_c = (row, col)
 
 # Making the moves from the input r-row , c-column
@@ -38,7 +39,6 @@ while True:
         elif matrix[new_r][new_c] not in ('.', '*'):
             tea_bags_collected += int(matrix[new_r][new_c])
 
-        matrix[alice_r][alice_c] = "*"
         matrix[new_r][new_c] = "*"
         alice_r, alice_c = new_r, new_c
 
