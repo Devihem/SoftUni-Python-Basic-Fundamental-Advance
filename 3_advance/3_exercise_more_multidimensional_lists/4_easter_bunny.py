@@ -12,6 +12,7 @@ directions = (
 
 )
 
+# Starting Values
 maximum_eggs = 0
 maximum_eggs_map = []
 winning_direction = ""
