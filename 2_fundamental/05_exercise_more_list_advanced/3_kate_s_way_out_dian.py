@@ -30,19 +30,3 @@ if not out_in:
     print(f"Kate cannot get out")
 else:
     print(f"Kate got out in {out_in} moves")
-
-
-
-# 7
-############
-############
-############
-######k#####
-############
-############
-############
-
-# 3
-# #####
-#   k
-# #####
