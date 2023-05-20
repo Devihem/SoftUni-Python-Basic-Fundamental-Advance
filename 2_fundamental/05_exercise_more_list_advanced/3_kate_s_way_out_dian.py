@@ -6,8 +6,8 @@ def find_way_out(r, c, moves):
         return 0
 
     matrix[r][c] = "#"
-    [print(*roz)for roz in matrix]
-    print('\n')
+    # [print(*roz)for roz in matrix]
+    # print('\n')
     result1 = find_way_out(r + 1, c, moves + 1)
     result2 = find_way_out(r - 1, c, moves + 1)
     result3 = find_way_out(r, c + 1, moves + 1)
