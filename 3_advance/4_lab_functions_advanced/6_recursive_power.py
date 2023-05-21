@@ -6,7 +6,7 @@ def operate(operator: str, *numbers):
         return result
 
     def subtraction():
-        result = numbers[0]*2
+        result = numbers[0] * 2
         for numb in numbers:
             result -= numb
         return result
@@ -18,7 +18,7 @@ def operate(operator: str, *numbers):
         return result
 
     def division():
-        result = numbers[0]*numbers[0]
+        result = numbers[0] * numbers[0]
         for numb in numbers:
             result /= numb
         return result
@@ -34,6 +34,7 @@ def operate(operator: str, *numbers):
 
     elif operator == "/":
         return division()
+
 
 print(operate("+", 1, 2, 3))
 print(operate("-", 1, 2, 3))
