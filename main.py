@@ -1,7 +1,2 @@
-
-
-x = 5
-
-x = 7 if x == 5 else 9
-
-print(x)
+x = "bcb"
+print(x[1:-1])
