@@ -1,10 +1,9 @@
+class ValueCannotBeNegative(Exception):
+    pass
 
 
-for _ in range(5):
+numbers = [int(input()) for _ in range(5)]
 
-    try:
-        number = int(input())
-        if number < 0:
-            raise ValueCannotBeNegative
-    except ValueCannotBeNegative:
-        print(ValueCannotBeNegative)
+for num in numbers:
+    if num < 0:
+        raise ValueCannotBeNegative
