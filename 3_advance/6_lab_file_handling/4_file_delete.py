@@ -11,4 +11,4 @@ class MessageWriter(object):
 
 
 with MessageWriter('Devihem_text.txt') as file:
-    file.write("Yo\n I'm DEVIHEM !!!")
+    file.write("Yo\nI'm DEVIHEM !!!")
