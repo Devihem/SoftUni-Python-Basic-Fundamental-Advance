@@ -3,6 +3,7 @@ with open('text.txt', 'r') as read_file:
 
     # Reading the text and make a copy in text
     text = read_file.readlines()
+
     # Symbols that must be replaced in 'text' with '@'
     replacing_symbols = ["-", ",", ".", "!", "?"]
 
