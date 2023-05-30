@@ -14,7 +14,7 @@ with open('output.txt', 'w') as output_file:
         total_symbols = [x for x in text[line_index] if x.isalpha()]
         total_punctuations = [x for x in text[line_index] if x in punctuation]
 
-        # Write the data in the output file  in format [Line[row-index] [text][letter-count][punctuation-count]
+        # Write the data in the output.txt file  in format [Line[row-index] [text][letter-count][punctuation-count]
         output_file.write(f'Line {line_index + 1}:'
                           f' {text[line_index][:-1]}'
                           f' ({len(total_symbols)})({len(total_punctuations)})\n')
