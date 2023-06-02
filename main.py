@@ -1,24 +1,20 @@
-# making an alternate ****** method of coding in python
-# ALL RIGHTS RESERVED
-# contact me on github to get permission to post a modification
-def writetext(str):
-    print(str)
+import random
+import time
+
+start_time = time.perf_counter()
+
+x = random.randint(0, 1_000_000)
+print(x)
+y = -1
+while y != x:
+    y = random.randint(0, 1_000_000)
 
 
-def changetext(str):
-    str = str
 
 
-def textread(str):
-    input(str)
+print(y)
+end_time = time.perf_counter()
 
+total_work_time = end_time - start_time
 
-def addfunctions(str):
-    import pygame
-
-
-writetext("test")
-var = textread("works?")
-
-changetext('a')
-writetext(a)
+print(total_work_time)
