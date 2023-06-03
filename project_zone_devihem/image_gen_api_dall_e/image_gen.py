@@ -20,7 +20,6 @@ MEDIA_FOLDER = 'images/'
 
 # Main - Function - Activated by button "Generate"
 def render_image():
-
     global save_button
 
     try:
@@ -65,7 +64,6 @@ def save_image(image, path):
 
 # Function for API , script from OpenAI , prompt = "Text" or Windows panel box for text entry
 def get_image_url():
-
     # This part is from OpenAI - API - WORK ONLY WITH CORRECT API KEY AND HAVING BALANCE CREDITS +
     # response = openai.Image.create(
     #     prompt=input_field.get(),
@@ -74,9 +72,10 @@ def get_image_url():
     # )
     # image_url = response['data'][0]['url']
 
-
     # Set Custom Banana image for Demo mode
-    image_url = 'https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1239&q=80'
+    image_url = '' \
+                'https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-' \
+                '4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1239&q=80'
     print(image_url)
     return image_url
 

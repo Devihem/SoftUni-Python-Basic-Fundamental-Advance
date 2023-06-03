@@ -1,3 +1,11 @@
+"""
+File: 2_line_numbers.py
+Exercise: 16 - File Handling
+Problem: 2 - Even Lines
+Author: Ivaylo Stoyanov - Devihem
+"""
+
+
 from string import punctuation
 
 # Opening the file in read mode - variable name : read_file

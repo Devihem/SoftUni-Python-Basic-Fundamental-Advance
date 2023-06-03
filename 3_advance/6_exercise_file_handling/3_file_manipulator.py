@@ -1,3 +1,10 @@
+"""
+File: 3_file_manipulator.py
+Exercise: 16 - File Handling
+Problem: 3 - File manipulator
+Author: Ivaylo Stoyanov - Devihem
+"""
+
 import os
 
 # While loop with command 'End' for break

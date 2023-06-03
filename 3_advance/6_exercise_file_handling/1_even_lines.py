@@ -1,3 +1,10 @@
+"""
+File: 1_even_lines.py
+Exercise: 16 - File Handling
+Problem: 1 - Even Lines
+Author: Ivaylo Stoyanov - Devihem
+"""
+
 # Opening the file in reading mode - variable name : read_file
 with open('text.txt', 'r') as read_file:
 
