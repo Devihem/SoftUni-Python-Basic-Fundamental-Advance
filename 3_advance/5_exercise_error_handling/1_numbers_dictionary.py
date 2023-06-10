@@ -38,7 +38,7 @@ while command_line != 'Remove':  # If command_line is "Remove" continue to Step_
 command_line = input()
 while command_line != 'End':  # If command_line is "End" stop the while-loop.
     try:
-        searched = command_linew
+        searched = command_line
         del numbers_dictionary[searched]
     except KeyError:
         print('Number does not exist in dictionary')

@@ -5,7 +5,6 @@ Problem: 2 - Even Lines
 Author: Ivaylo Stoyanov - Devihem
 """
 
-
 from string import punctuation
 
 # Opening the file in read mode - variable name : read_file

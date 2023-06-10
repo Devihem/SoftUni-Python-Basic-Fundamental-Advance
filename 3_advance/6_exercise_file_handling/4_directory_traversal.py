@@ -47,7 +47,7 @@ while True:
                       f"*  FILE SCANNING SCRIPT - SoftUni *\n"
                       f"* * * * * * * * * * * * * * * * * *\n"
                       f"\nDefault scan file directory set to:   {os.getcwd()}  \n"
-                      "For default directory - Press [ENTER] or  for custom directory Type Path: ")
+                      "For default directory - Press [ENTER] or for custom directory Type Path: ")
     if not directory:
         directory = '.'
 
