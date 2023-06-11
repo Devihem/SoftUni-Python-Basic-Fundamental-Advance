@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Connect-4/.idea/Connect-4.iml" filepath="$PROJECT_DIR$/../Connect-4/.idea/Connect-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/soft_uni_python.iml" filepath="$PROJECT_DIR$/.idea/soft_uni_python.iml" />
     </modules>
   </component>
