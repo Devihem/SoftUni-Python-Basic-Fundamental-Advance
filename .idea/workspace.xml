@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_02_10_2020/1_scheduling.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_02_10_2020/1_scheduling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_02_10_2020/2_checkmate.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_02_10_2020/2_checkmate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_02_10_2020/3_list_pureness.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_02_10_2020/3_list_pureness.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_scheduling">
+  <component name="RunManager" selected="Python.3_list_pureness">
     <configuration name="1_scheduling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_taxi_express" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_checkmate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_01_08_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_02_10_2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_01_08_2020/1_taxi_express.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_02_10_2020/2_checkmate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_list_manipulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_list_pureness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_00_06_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_02_10_2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_00_06_2020/3_list_manipulator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_02_10_2020/3_list_pureness.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3_list_pureness" />
+        <item itemvalue="Python.2_checkmate" />
         <item itemvalue="Python.1_scheduling" />
         <item itemvalue="Python.3_numbers_search" />
         <item itemvalue="Python.2_minesweeper_generator" />
-        <item itemvalue="Python.1_taxi_express" />
-        <item itemvalue="Python.3_list_manipulator" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686689017065</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=".">
+      <created>1686692893574</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686692893574</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
