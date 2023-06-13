@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/3_advance/exam_00_06_2020/1_bombs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/exam_00_06_2020/2_snake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/exam_00_06_2020/3_list_manipulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_04_02_2021/1_fireworks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_04_02_2021/2_collecting_coins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_04_02_2021/3_cupcake_shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_05_04_2021/1_pizza_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_05_04_2021/2_darts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_05_04_2021/3_flights.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_fundamental/07_exercise_dictionaries/12_softuni_exam_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_fundamental/07_exercise_dictionaries/12_softuni_exam_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_00_06_2020/1_bombs.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_00_06_2020/1_bombs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,28 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.1_bombs">
+    <configuration name="1_bombs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_00_06_2020" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_00_06_2020/1_bombs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_bombs" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -153,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686471113460</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=".">
+      <created>1686650953661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686650953661</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <created>1686652416942</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686652416942</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
