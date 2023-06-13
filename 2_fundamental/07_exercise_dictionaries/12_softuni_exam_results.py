@@ -52,7 +52,7 @@ banned_users_list = []
 while True:
 
     system_input = input()
-    if system_input == "exam finished":
+    if system_input == "exam_00_06_2020 finished":
         break
     elif "banned" in system_input:
         system_input = system_input.split("-")
