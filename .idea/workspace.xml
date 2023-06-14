@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_0_2023/task _matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_0_2023/task_deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_0_2023/task_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_04_02_2021/1_fireworks.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_04_02_2021/1_fireworks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_04_02_2021/3_cupcake_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_04_02_2021/3_cupcake_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_05_04_2021/1_pizza_orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_05_04_2021/1_pizza_orders.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1_fireworks">
+  <component name="RunManager" selected="Python.1_pizza_orders">
     <configuration name="1_fireworks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_matching" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_pizza_orders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_03_12_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_05_04_2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_03_12_2020/1_matching.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_05_04_2021/1_pizza_orders.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_game_of_words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_collecting_coins" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_03_12_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_04_02_2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_03_12_2020/2_game_of_words.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_04_02_2021/2_collecting_coins.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_list_pureness" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_cupcake_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_02_10_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_04_02_2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_02_10_2020/3_list_pureness.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_04_02_2021/3_cupcake_shop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_pizza_orders" />
+        <item itemvalue="Python.3_cupcake_shop" />
+        <item itemvalue="Python.2_collecting_coins" />
         <item itemvalue="Python.1_fireworks" />
         <item itemvalue="Python.3_magic_triangle" />
-        <item itemvalue="Python.2_game_of_words" />
-        <item itemvalue="Python.1_matching" />
-        <item itemvalue="Python.3_list_pureness" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +322,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686703192451</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=".">
+      <created>1686740287919</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686740287919</updated>
+    </task>
+    <task id="LOCAL-00021" summary=".">
+      <created>1686750784293</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686750784293</updated>
+    </task>
+    <task id="LOCAL-00022" summary=".">
+      <created>1686751514100</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686751514100</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
