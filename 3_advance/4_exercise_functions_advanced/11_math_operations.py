@@ -1,4 +1,5 @@
 def math_operations(*args, **kwargs):
+    print(kwargs)
     numbers = list(args)
     counter = 0
     while True:
