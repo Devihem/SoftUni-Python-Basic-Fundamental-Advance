@@ -1,4 +1,4 @@
-
+matrix_size = 0
 
 
 
@@ -11,3 +11,9 @@ directions = {
 }
 
 # Type 2 8-axis:
+
+
+# Finding UNIT place:
+row_r, row_c = [(row, col)
+                for col in range(matrix_size)
+                for row in range(matrix_size) if map_matrix[row][col] == 'SYMBOL'][0]
