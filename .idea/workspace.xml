@@ -2,13 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/3_advance/exam_06_10_2021/1_aladdins_gifts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/exam_06_10_2021/3_shopping_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_06_10_2021/2_ball_in_the_bucket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_07_12_2021/1_christmas_elves.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_07_12_2021/2_north_pole_challenge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_07_12_2021/3_naughty_or_nice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_08_02_2022/1_flowers_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_08_02_2022/2_pawn_wars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_08_02_2022/3_springtime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_09_04_2022/1_ramen_shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_09_04_2022/2_martian_explorer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_09_04_2022/3_words_sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_10_06_2022/1_collecting_eggs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_10_06_2022/2_exit_founder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_10_06_2022/3_shopping_cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_11_08_2022/1_stewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_11_08_2022/2_crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_11_08_2022/3_song_creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_12_10_2022/1_energy_drinks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_12_10_2022/2_rally_racing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_12_10_2022/3_hourly_fourcast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_13_12_2022/1_climb_the_peaks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_13_12_2022/2_navy_battle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_13_12_2022/3_student_credits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_14_02_2023/1_apocalupse_preparation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_14_02_2023/2_blind_man_buff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_15_04_2023/1_rubber_duck_debugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_15_04_2023/2_the_squirrel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/exam_15_04_2023/3_movie_organizer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/4_exercise_functions_advanced/11_math_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/4_exercise_functions_advanced/11_math_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_05_04_2021/3_flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_05_04_2021/3_flights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_0_2023/task_deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_0_2023/task_deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/extra.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/extra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/extra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/my.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_14_02_2023/3_grocery_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +85,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\exam_15_04_2023" />
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\exam_14_02_2023" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_shopping_list">
+  <component name="RunManager" selected="Python.2_ball_in_the_bucket">
     <configuration name="11_math_operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_flights" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_ball_in_the_bucket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_05_04_2021" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_06_10_2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_05_04_2021/3_flights.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_06_10_2021/2_ball_in_the_bucket.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2_ball_in_the_bucket" />
         <item itemvalue="Python.3_shopping_list" />
         <item itemvalue="Python.11_math_operations" />
         <item itemvalue="Python.1_aladdins_gifts" />
         <item itemvalue="Python.extra" />
-        <item itemvalue="Python.3_flights" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686779485805</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=".">
+      <created>1686789938510</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686789938510</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
