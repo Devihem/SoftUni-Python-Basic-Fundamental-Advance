@@ -1,45 +1,50 @@
-SIZE = 6
+from collections import deque
 
-MAPP = {
-    'up': (-1, 0),
-    'down': (1, 0),
-    'left': (0, -1),
-    'right': (0, 1)
+textiles = deque(int(x) for x in input().split())
+medicaments = deque(int(x) for x in input().split())
 
+healing_items = {
+    30: 'Patch',
+    40: 'Bandage',
+    100: "MedKit"
 }
 
-matrix = [input().split() for _ in range(SIZE)]
-x, y = map(int, input().strip('(').strip(')').split(', '))
-current_position = int(matrix[x][y]) if matrix[x][y].isdigit() else matrix[x][y]
+healing_count = {
+    'Patch': 0,
+    'Bandage': 0,
+    "MedKit": 0
+}
 
-while True:
-    data = input().split()
-    if data[0] == 'Stop':
-        break
-    command = data[0]
-    direction = data[1]
-    print(direction)
-    print(MAPP[direction])
-    dx, dy = MAPP[direction]
-    x += dx
-    y += dy
-    current_position = matrix[x][y]
+while textiles and medicaments:
+    textile = textiles.popleft()
+    medicament = medicaments.pop()
 
-    if command == 'Create':
-        if matrix[x][y] == '.':
-            matrix[x][y] = data[2]
+    healing_resource = textile + medicament
 
-    elif command == 'Update':
-        if matrix[x][y].isalpha() or matrix[x][y].isdigit():
-            matrix[x][y] = data[2]
+    if healing_resource in healing_items:
+        healing_count[healing_items[healing_resource]] += 1
 
-    elif command == 'Delete':
-        if matrix[x][y].isalpha() or matrix[x][y].isdigit():
-            matrix[x][y] = '.'
+    elif healing_resource > 100:
+        healing_count['MedKit'] += 1
+        healing_resource -= 100
+        medicaments[-1] += healing_resource
 
-    elif command == 'Read':
-        if matrix[x][y].isalpha() or matrix[x][y].isdigit():
-            print(matrix[x][y])
+    else:
+        medicament += 10
+        medicaments.append(medicament)
 
-for i in matrix:
-    print(*matrix)
+if not textiles and not medicaments:
+    print('Textiles and medicaments are both empty.')
+elif not textiles:
+    print('Textiles are empty.')
+elif not medicaments:
+    print('Medicaments are empty.')
+
+for item, value in sorted(healing_count.items(), key=lambda x: (x[1] * -1, x[0])):
+    if value:
+        print(f'{item} - {value}')
+
+if medicaments:
+    print(f"Medicaments left: {', '.join(str(x) for x in sorted(medicaments, reverse=True))}")
+if textiles:
+    print(f"Textiles left: {', '.join(str(x) for x in sorted(textiles, reverse=True))}")
