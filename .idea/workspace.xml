@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_14_02_2023/2_blind_man_buff.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_14_02_2023/2_blind_man_buff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_0_2023/task _matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_0_2023/task _matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_15_04_2023/1_rubber_duck_debugger.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_15_04_2023/1_rubber_duck_debugger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_15_04_2023/2_the_squirrel.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_15_04_2023/2_the_squirrel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_15_04_2023/3_movie_organizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_15_04_2023/3_movie_organizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2_blind_man_buff">
+  <component name="RunManager" selected="Python.3_movie_organizer">
     <configuration name="1_apocalupse_preparation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1_climb_the_peaks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1_rubber_duck_debugger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_13_12_2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_15_04_2023" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_13_12_2022/1_climb_the_peaks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_15_04_2023/1_rubber_duck_debugger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2_navy_battle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_the_squirrel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_13_12_2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_15_04_2023" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_13_12_2022/2_navy_battle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_15_04_2023/2_the_squirrel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3_student_credits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3_movie_organizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_13_12_2022" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_15_04_2023" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_13_12_2022/3_student_credits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_15_04_2023/3_movie_organizer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3_movie_organizer" />
+        <item itemvalue="Python.2_the_squirrel" />
+        <item itemvalue="Python.1_rubber_duck_debugger" />
         <item itemvalue="Python.2_blind_man_buff" />
         <item itemvalue="Python.1_apocalupse_preparation" />
-        <item itemvalue="Python.2_navy_battle" />
-        <item itemvalue="Python.3_student_credits" />
-        <item itemvalue="Python.1_climb_the_peaks" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686946452467</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary=".">
+      <created>1686947911168</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686947911168</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

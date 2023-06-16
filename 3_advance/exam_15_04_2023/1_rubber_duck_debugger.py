@@ -1,13 +1,38 @@
 from collections import deque
 
-list_deque_1 = deque([int(x) for x in input().split('')])
-list_deque_2 = deque([int(x) for x in input().split('')])
+time = deque([int(x) for x in input().split(' ')])
+task = deque([int(x) for x in input().split(' ')])
 
-while list_deque_1 and list_deque_2:
+ducky_dict = {
+    'Darth Vader Ducky': 0,
+    'Thor Ducky': 0,
+    'Big Blue Rubber Ducky': 0,
+    'Small Yellow Rubber Ducky': 0,
+}
+while time and task:
 
-    current_example1 = list_deque_1.pop()
-    current_example2 = list_deque_2.popleft()
+    current_time = time.popleft()
+    current_task = task.pop()
+    current_sum = current_task * current_time
 
+    if current_sum > 240:
 
-# Final prints:
-#  if all list are INTs : {', '.join([str(x) for x in list_name])}
+        time.append(current_time)
+        task.append(current_task - 2)
+
+    elif 0 <= current_sum <= 240:
+
+        if current_sum <= 60:
+            ducky_dict['Darth Vader Ducky'] += 1
+
+        elif current_sum <= 120:
+            ducky_dict['Thor Ducky'] += 1
+
+        elif current_sum <= 180:
+            ducky_dict['Big Blue Rubber Ducky'] += 1
+
+        else:
+            ducky_dict['Small Yellow Rubber Ducky'] += 1
+
+print("Congratulations, all tasks have been completed! Rubber ducks rewarded:")
+[print(f'{duck}: {count}') for duck, count in ducky_dict.items()]

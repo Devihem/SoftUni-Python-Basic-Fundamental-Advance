@@ -1,6 +1,10 @@
-matrix_size = 0
-matrix = [input().split() for x in range(matrix_size)]
+matrix_size = int(input())
+moves = input().split(', ')
 
+matrix = [list(input()) for x in range(matrix_size)]
+
+squ_r, squ_c = [(r, c) for c in range(matrix_size) for r in range(matrix_size) if matrix[r][c] == 's'][0]
+hazelnuts = 0
 
 # Type 1 - 4 axis:
 directions = {
@@ -10,10 +14,30 @@ directions = {
     'right': (0, 1)
 }
 
-# Type 2 8-axis:
+for move in moves:
+
+    dir_r, dir_c = directions[move]
+
+    new_r = squ_r + dir_r
+    new_c = squ_c + dir_c
+
+    if 0 <= new_r < matrix_size and 0 <= new_c < matrix_size:
+        if matrix[new_r][new_c] == 't':
+            print("Unfortunately, the squirrel stepped on a trap...")
+            break
+
+        if matrix[new_r][new_c] == 'h':
+            hazelnuts += 1
+            if hazelnuts == 3:
+                print("Good job! You have collected all hazelnuts!")
+                break
+        matrix[new_r][new_c] = '*'
+        squ_r, squ_c = new_r, new_c
+    else:
+        print("The squirrel is out of the field.")
+        break
+else:
+    print("There are more hazelnuts to collect.")
 
 
-# Finding UNIT place:
-row_r, row_c = [(row, col)
-                for col in range(matrix_size)
-                for row in range(matrix_size) if map_matrix[row][col] == 'SYMBOL'][0]
+print(f"Hazelnuts collected: {hazelnuts}")
