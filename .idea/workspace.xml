@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_09_04_2022/2_martian_explorer.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_09_04_2022/2_martian_explorer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_09_04_2022/3_words_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_09_04_2022/3_words_sorting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/exam_0_2023/task _matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_0_2023/task _matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/exam_10_06_2022/1_collecting_eggs.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/exam_10_06_2022/1_collecting_eggs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,28 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_words_sorting">
+  <component name="RunManager" selected="Python.1_collecting_eggs">
+    <configuration name="1_collecting_eggs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_10_06_2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_10_06_2022/1_collecting_eggs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1_ramen_shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,27 +119,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_09_04_2022/2_martian_explorer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2_pawn_wars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/exam_08_02_2022" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/exam_08_02_2022/2_pawn_wars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_collecting_eggs" />
         <item itemvalue="Python.3_words_sorting" />
         <item itemvalue="Python.2_martian_explorer" />
         <item itemvalue="Python.1_ramen_shop" />
         <item itemvalue="Python.3_springtime" />
-        <item itemvalue="Python.2_pawn_wars" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686852697591</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary=".">
+      <created>1686863188491</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686863188491</updated>
+    </task>
+    <task id="LOCAL-00033" summary=".">
+      <created>1686863268131</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686863268131</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
