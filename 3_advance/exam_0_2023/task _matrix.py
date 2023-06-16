@@ -1,5 +1,5 @@
 matrix_size = 0
-
+matrix = [input().split() for x in range(matrix_size)]
 
 
 # Type 1 - 4 axis:
