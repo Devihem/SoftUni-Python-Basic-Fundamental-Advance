@@ -14,6 +14,7 @@ while elfs and boxs:
         continue
 
     current_box = boxs.pop()
+
     box_counter += 1
 
     if box_counter % 3 == 0:
