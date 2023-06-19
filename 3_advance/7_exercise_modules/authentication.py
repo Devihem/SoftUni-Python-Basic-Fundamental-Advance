@@ -2,6 +2,7 @@ from tkinter import Button, Entry
 from canvas import root, frame
 from helpers import clean_screen
 from json import loads, dump
+from buying_page import display_products
 
 
 def render_entry():
@@ -84,7 +85,7 @@ def check_logging():
 
 def logging():
     if check_logging():
-        pass  # TODO DISPLAY
+        display_products()
     else:
         frame.create_text(160, 200, text="Invalid Username or Password!", fill="red")
 
@@ -128,7 +129,7 @@ def registration():
         with open("gui_shop/db/users_information.txt", "a") as users_file:
             dump(info_dict, users_file)
             users_file.write("\n")
-            # TODO DISP
+            display_products()
 
 
 def check_registration(info):

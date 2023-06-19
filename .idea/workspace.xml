@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/canvas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/db/users_information.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/db/product_data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_basic/asdsadsadsa22.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/buying_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/images/pants.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/images/pants.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/images/shirt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/images/shirt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/images/shoes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/images/shoes.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,20 +188,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary=".">
-      <created>1686460981359</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1686460981359</updated>
-    </task>
-    <task id="LOCAL-00002" summary=".">
-      <created>1686461019390</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1686461019390</updated>
-    </task>
     <task id="LOCAL-00003" summary=".">
       <created>1686461146045</created>
       <option name="number" value="00003" />
@@ -538,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687137501897</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary=".">
+      <created>1687184123312</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1687184123313</updated>
+    </task>
+    <task id="LOCAL-00051" summary=".">
+      <created>1687184169379</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1687184169379</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
