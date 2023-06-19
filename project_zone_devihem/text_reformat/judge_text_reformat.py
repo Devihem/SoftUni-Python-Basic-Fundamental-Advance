@@ -9,7 +9,7 @@ for index, item in enumerate(soft_uni_list):
     else:
         working_box = item
         for symbol in working_box:
-            if symbol == "." or symbol == "✶":
+            if symbol == "." or symbol == "✶" or symbol.isdigit() or symbol == "_" or symbol == "*":
                 continue
             else:
                 if symbol == " ":

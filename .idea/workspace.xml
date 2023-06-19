@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/buying_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/buying_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/db/product_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/db/product_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/db/users_information.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/gui_shop/db/users_information.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_advance/7_exercise_modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_advance/7_exercise_modules/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/1_rhombus_of_stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/file_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/2_scope_mess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/3_class_book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/4_car.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/5_music.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_zone_devihem/text_reformat/judge_text_reformat.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zone_devihem/text_reformat/judge_text_reformat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,49 +70,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="4_mathematical_operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/7_lab_modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/7_lab_modules/4_mathematical_operations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5_fibonacci_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_advance/7_lab_modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_advance/7_lab_modules/5_fibonacci_sequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.file_creator">
     <configuration name="authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,6 +113,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/file_creator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="judge_text_reformat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_zone_devihem/text_reformat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_zone_devihem/text_reformat/judge_text_reformat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,23 +178,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_creator" />
+        <item itemvalue="Python.judge_text_reformat" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.authentication" />
         <item itemvalue="Python.canvas" />
-        <item itemvalue="Python.5_fibonacci_sequence" />
-        <item itemvalue="Python.4_mathematical_operations" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00004" summary=".">
-      <created>1686461250024</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1686461250024</updated>
-    </task>
     <task id="LOCAL-00005" summary=".">
       <created>1686461337060</created>
       <option name="number" value="00005" />
@@ -537,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687190592440</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary=".">
+      <created>1687199107419</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1687199107419</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
