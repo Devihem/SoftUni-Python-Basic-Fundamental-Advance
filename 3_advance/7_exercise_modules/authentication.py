@@ -1,6 +1,6 @@
 from tkinter import Button, Entry
 from canvas import root, frame
-from helpers import clean_screen
+from helpers import clean_screen, get_password_hash
 from json import loads, dump
 from buying_page import display_products
 
@@ -55,15 +55,6 @@ def login():
     frame.create_window(200, 50, window=user_name_box)
     frame.create_window(200, 100, window=password_box)
 
-    login_button = Button(
-        root,
-        text="Login",
-        bg="blue",
-        borderwidth=0,
-        fg="white",
-        command=logging
-    )
-
     frame.create_window(250, 150, window=login_button)
 
 
@@ -71,7 +62,7 @@ def check_logging():
     info_data = get_users_data()
 
     user_username = user_name_box.get()
-    user_password = password_box.get()
+    user_password = get_password_hash(password_box.get())
 
     for record in info_data:
         record_username = record["Username"]
@@ -127,6 +118,7 @@ def registration():
 
     if check_registration(info_dict):
         with open("gui_shop/db/users_information.txt", "a") as users_file:
+            info_dict["Password"] = get_password_hash(info_dict["Password"])
             dump(info_dict, users_file)
             users_file.write("\n")
             display_products()
@@ -163,8 +155,35 @@ def check_registration(info):
     return True
 
 
+def print_event(event):
+    info = [
+        user_name_box.get(),
+        password_box.get()
+    ]
+
+    for el in info:
+        if not el.strip():
+            login_button["state"] = "disabled"
+            break
+    else:
+        login_button["state"] = "normal"
+
+
 # Creating this entry boxes in global
 first_name_box = Entry(root, bd=0)
 last_name_box = Entry(root, bd=0)
 user_name_box = Entry(root, bd=0)
 password_box = Entry(root, bd=0, show='*')
+
+login_button = Button(
+    root,
+    text="Login",
+    bg="blue",
+    borderwidth=0,
+    fg="white",
+    command=logging
+)
+
+login_button["state"] = "disabled"
+
+root.bind("<KeyRelease>", print_event)

@@ -1,7 +1,7 @@
 from tkinter import Button
 from PIL import Image, ImageTk
 from helpers import clean_screen
-from json import load
+from json import load, dump
 from canvas import frame, root
 
 
@@ -34,6 +34,7 @@ def display_stock():
                 fg="white",
                 font=("Comic Sans MS", 12),
                 width=5,
+                command=lambda x=item_name, y=info: buy_product(x, y)
             )
 
             frame.create_window(x, y + 230, window=item_button)
@@ -41,12 +42,21 @@ def display_stock():
             color = "red"
             text = "Out of Stock"
 
-        frame.create_text(x,y + 180, text=text, fill=color, font=("Comic Sans MS,",12))
+        frame.create_text(x, y + 180, text=text, fill=color, font=("Comic Sans MS,", 12))
         x += 200
 
         if x > 550:
             y += 230
             x = 150
+
+
+def buy_product(product_name, info):
+    info[product_name]["quantity"] -= 1
+
+    with open("gui_shop/db/product_data.json", "w") as stock:
+        dump(info, stock)
+
+    display_products()
 
 
 images = []
