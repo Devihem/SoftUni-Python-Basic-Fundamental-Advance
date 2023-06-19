@@ -16,4 +16,4 @@ while True:
         print(*seq)
     elif split_data[0] == 'Locate':
         num = int(split_data[-1])
-        print(locate_num(num,seq))
+        print(locate_num(num, seq))
