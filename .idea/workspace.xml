@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/1_rhombus_of_stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/file_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/2_scope_mess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/3_class_book.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/4_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_oop/1_first_step_in_oop/5_music.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_zone_devihem/text_reformat/judge_text_reformat.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_zone_devihem/text_reformat/judge_text_reformat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/file_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/file_creator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,13 +183,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00005" summary=".">
-      <created>1686461337060</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1686461337060</updated>
-    </task>
     <task id="LOCAL-00006" summary=".">
       <created>1686461404233</created>
       <option name="number" value="00006" />
@@ -538,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687199107419</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary=".">
+      <created>1687205012435</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1687205012435</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -16,7 +16,7 @@ if len(folder_name) > 1:
 else:
     final_folder_name = folder_name[0].replace(" ", "_")
 
-final_folder_name.replace(" ", "_")
+final_folder_name = final_folder_name.replace(" ", "_")
 os.mkdir(final_folder_name)
 
 for task in math:
