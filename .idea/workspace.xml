@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/pet_shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/projects_creation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/rectangle_area.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/yard_greening.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/concatenate_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/glass.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/greeting_by_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/point.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/hello_softuni.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/inches_to_centimeters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/nums_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/file_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/file_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/rhombus_of_stars.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/rhombus_of_stars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/scope_mess.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/scope_mess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/class_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/class_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/music.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/music.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +68,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scope_mess">
-    <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.music">
+    <configuration name="car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,32 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/first_steps_in_oop_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/file_creator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="judge_text_reformat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_zone_devihem/text_reformat" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_zone_devihem/text_reformat/judge_text_reformat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_lab/car.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,6 +103,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="music" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/first_steps_in_oop_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_lab/music.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.music" />
+        <item itemvalue="Python.car" />
         <item itemvalue="Python.scope_mess" />
         <item itemvalue="Python.rhombus_of_stars" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.file_creator" />
-        <item itemvalue="Python.judge_text_reformat" />
       </list>
     </recent_temporary>
   </component>
@@ -202,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00008" summary=".">
-      <created>1686471113460</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1686471113460</updated>
     </task>
     <task id="LOCAL-00009" summary=".">
       <created>1686650953661</created>
@@ -546,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687210735550</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary=".">
+      <created>1687266320610</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1687266320611</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
