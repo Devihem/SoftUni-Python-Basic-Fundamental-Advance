@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/steam_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/steam_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/programmer.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/programmer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.steam_user">
+  <component name="RunManager" selected="Python.programmer">
     <configuration name="cup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="programmer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/hero.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/programmer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.programmer" />
         <item itemvalue="Python.steam_user" />
         <item itemvalue="Python.flower" />
         <item itemvalue="Python.cup" />
         <item itemvalue="Python.employee" />
-        <item itemvalue="Python.hero" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00012" summary=".">
-      <created>1686663844444</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1686663844444</updated>
     </task>
     <task id="LOCAL-00013" summary=".">
       <created>1686675496802</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687276977070</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary=".">
+      <created>1687277826997</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1687277826997</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
