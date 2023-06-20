@@ -24,5 +24,13 @@ for task in math:
     task = task.replace(" ", "_")
     task = task.replace(",", "_")
 
+    # For LINUX
+    # with open(f"{location_name}/{final_folder_name}/{task}.py", 'w') as new_file:
+
+    # For WINDOWS
     with open(f"{location_name}\\{final_folder_name}\\{task}.py", 'w') as new_file:
         new_file.write("")
+
+print("Files created, rename manually if there is any issue.\n"
+      "Type of names that will be incorrectly written ( with numbers in the end ):\n"
+      "Arena 51, Multiply by 2, Numbers from 1 to 10")
