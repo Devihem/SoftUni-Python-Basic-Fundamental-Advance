@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/cup.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/cup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/flower.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/flower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/steam_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/steam_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flower">
+  <component name="RunManager" selected="Python.steam_user">
     <configuration name="cup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="steam_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/shop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/steam_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.steam_user" />
         <item itemvalue="Python.flower" />
         <item itemvalue="Python.cup" />
         <item itemvalue="Python.employee" />
         <item itemvalue="Python.hero" />
-        <item itemvalue="Python.shop" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00011" summary=".">
-      <created>1686658301932</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1686658301932</updated>
     </task>
     <task id="LOCAL-00012" summary=".">
       <created>1686663844444</created>
@@ -536,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687275792503</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary=".">
+      <created>1687276977070</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1687276977070</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
