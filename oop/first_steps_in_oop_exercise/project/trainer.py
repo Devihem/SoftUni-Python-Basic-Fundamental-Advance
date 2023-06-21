@@ -1,4 +1,5 @@
-from project.pokemon import Pokemon
+# from project.pokemon import Pokemon  # THIS IS HOW IT MUST LOOK FOR JUDGE !!!
+from pokemon import Pokemon
 
 
 class Trainer:
