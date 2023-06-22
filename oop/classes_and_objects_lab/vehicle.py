@@ -4,10 +4,5 @@ class Vehicle:
         self.max_speed = max_speed
         self.gadgets = []
 
-car = Vehicle(20)
-print(car.max_speed)
-print(car.mileage)
-print(car.gadgets)
-car.gadgets.append('Hudly Wireless')
-print(car.gadgets)
-
+    def __getitem__(self, index):
+        return self.lis[index]
