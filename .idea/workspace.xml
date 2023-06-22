@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/concatenate_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/greeting_by_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/hello_softuni.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/inches_to_centimeters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/nums_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/pet_shop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/projects_creation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/rectangle_area.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_coding_lab/yard_greening.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/point.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/classes_and_objects_lab/point.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\exam_15_04_2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vehicle">
+  <component name="RunManager" selected="Python.point">
     <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/first_steps_in_oop_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/classes_and_objects_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/flower.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/classes_and_objects_lab/point.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.point" />
         <item itemvalue="Python.vehicle" />
         <item itemvalue="Python.file_creator" />
         <item itemvalue="Python.trainer" />
         <item itemvalue="Python.steam_user" />
-        <item itemvalue="Python.flower" />
       </list>
     </recent_temporary>
   </component>
@@ -198,20 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00019" summary=".">
-      <created>1686703192451</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1686703192451</updated>
-    </task>
-    <task id="LOCAL-00020" summary=".">
-      <created>1686740287919</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1686740287919</updated>
     </task>
     <task id="LOCAL-00021" summary=".">
       <created>1686750784293</created>
@@ -542,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687364724981</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary=".">
+      <created>1687423973354</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1687423973354</updated>
+    </task>
+    <task id="LOCAL-00069" summary=".">
+      <created>1687423981693</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1687423981693</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
