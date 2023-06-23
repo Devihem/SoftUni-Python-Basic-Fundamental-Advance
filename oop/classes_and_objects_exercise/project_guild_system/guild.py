@@ -18,7 +18,6 @@ class Guild:
         elif player.guild != "Unaffiliated":
             return f"Player {player.name} is in another guild."
 
-
     def kick_player(self, player_name: str):
         for player_loc_data in self.players:
             print('TEST', player_loc_data.name)
@@ -32,5 +31,3 @@ class Guild:
     def guild_info(self):
         players_in_guild_print = '\n'.join([f"{print_player.player_info()}" for print_player in self.players])
         return f"Guild: {self.name}\n{players_in_guild_print}"
-
-
