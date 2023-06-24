@@ -1,3 +1,5 @@
+# wrongly written ( bad task description )
+
 class Vet:
     animals = []
     space = 5
@@ -28,24 +30,3 @@ class Vet:
     def info(self):
 
         return f"{self.name} has {len(self.animals)} animals. {Vet.space} space left in clinic"
-
-
-peter = Vet("Peter")
-george = Vet("George")
-
-print(peter.register_animal("Tom"))
-print(peter.register_animal("Fishy"))
-print(peter.register_animal("Bobby"))
-
-print(george.register_animal("Cory"))
-print(george.register_animal("Kay"))
-
-print(george.unregister_animal("Cory"))
-
-print(peter.register_animal("Silky"))
-
-print(peter.unregister_animal("Molly"))
-
-print(peter.unregister_animal("Tom"))
-print(peter.info())
-print(george.info())
