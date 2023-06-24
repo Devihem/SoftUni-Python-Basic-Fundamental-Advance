@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/library.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +65,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\7_lab_modules\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="band" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.file_creator">
+    <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_spoopify" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_spoopify/band.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/file_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_creator" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.registration" />
         <item itemvalue="Python.library" />
         <item itemvalue="Python.user" />
-        <item itemvalue="Python.band" />
       </list>
     </recent_temporary>
   </component>
@@ -191,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00035" summary=".">
-      <created>1686901685089</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1686901685089</updated>
     </task>
     <task id="LOCAL-00036" summary=".">
       <created>1686905044204</created>
@@ -535,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687582073631</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary=".">
+      <created>1687584901471</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1687584901471</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
