@@ -21,7 +21,8 @@ class Library:
 
         for user_rented_books in self.rented_books.values():
             if book_name in user_rented_books.keys():
-                return f'The book "{book_name}" is already rented and will be available in {user_rented_books[book_name]} days!'
+                return f'The book "{book_name}" is already rented ' \
+                       f'and will be available in {user_rented_books[book_name]} days!'
 
     def return_book(self, author: str, book_name: str, user: User):
         if book_name in user.books:

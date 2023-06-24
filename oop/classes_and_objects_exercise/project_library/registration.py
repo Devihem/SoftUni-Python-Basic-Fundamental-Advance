@@ -25,7 +25,7 @@ class Registration:
                     if user_id_search.username in library.rented_books.keys():
                         books_rental_copy = library.rented_books[user_id_search.username]
                         del library.rented_books[user_id_search.username]
-                        # mom spaghetti  - който я е писал тая задача акъл няма !!
+                        # mom spaghetti
                         library.rented_books[new_username] = books_rental_copy
                     user_id_search.username = new_username
                     return f"Username successfully changed to: {new_username} for user id: {user_id}"
