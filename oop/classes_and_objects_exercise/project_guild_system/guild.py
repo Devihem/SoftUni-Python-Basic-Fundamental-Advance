@@ -20,7 +20,6 @@ class Guild:
 
     def kick_player(self, player_name: str):
         for player_loc_data in self.players:
-            print('TEST', player_loc_data.name)
             if player_loc_data.name == player_name:
                 self.players.remove(player_loc_data)
                 player_loc_data.guild = "Unaffiliated"
