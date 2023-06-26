@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/food_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/food_project/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/food_project/fruit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/project_multiple_inheritance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/project_multiple_inheritance/employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/project_multiple_inheritance/person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/project_multiple_inheritance/teacher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/project_single_inheritance/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/inheritance_lab/project_single_inheritance/dog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/food.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/food_project/fruit.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_lab/food_project/fruit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multiple_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/single_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_lab/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +67,35 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\inheritance_lab\" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\classes_and_objects_exercise\project_to_do_list" />
       <recent name="C:\Users\User1\PycharmProjects\oop\soft_uni_python" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\7_exercise_modules\gui_shop" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\7_lab_modules\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fruit">
+  <component name="RunManager" selected="Python.dog">
+    <configuration name="dog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/inheritance_lab/project_single_inheritance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/inheritance_lab/project_single_inheritance/dog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,27 +130,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/inheritance_lab/food_project/fruit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="library" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/library.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dog" />
         <item itemvalue="Python.fruit" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.file_creator" />
         <item itemvalue="Python.registration" />
-        <item itemvalue="Python.library" />
       </list>
     </recent_temporary>
   </component>
@@ -194,13 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00036" summary=".">
-      <created>1686905044204</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1686905044204</updated>
     </task>
     <task id="LOCAL-00037" summary=".">
       <created>1686906376288</created>
@@ -538,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687584901471</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary=".">
+      <created>1687764880941</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1687764880941</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
