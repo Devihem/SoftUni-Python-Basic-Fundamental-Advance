@@ -1,4 +1,3 @@
-x = sum([2,3,4,5,6])
-z = 5
+x = {'a': 2, "c": 3, 'v': 4}
 
-print(x)
+print(sum(x.values()))
