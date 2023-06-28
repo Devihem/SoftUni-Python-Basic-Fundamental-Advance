@@ -1,10 +1,10 @@
-from project.caretaker import Caretaker
-from project.cheetah import Cheetah
-from project.keeper import Keeper
-from project.lion import Lion
-from project.tiger import Tiger
-from project.vet import Vet
-from project.zoo import Zoo
+from oop.encapsulation_exercise.wild_cat_zoo.caretaker import Caretaker
+from oop.encapsulation_exercise.wild_cat_zoo.cheetah import Cheetah
+from oop.encapsulation_exercise.wild_cat_zoo.keeper import Keeper
+from oop.encapsulation_exercise.wild_cat_zoo.lion import Lion
+from oop.encapsulation_exercise.wild_cat_zoo.tiger import Tiger
+from oop.encapsulation_exercise.wild_cat_zoo.vet import Vet
+from oop.encapsulation_exercise.wild_cat_zoo.zoo import Zoo
 
 zoo = Zoo("Zootopia", 3000, 5, 8)
 # Animals creation

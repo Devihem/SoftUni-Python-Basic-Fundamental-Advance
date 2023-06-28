@@ -1,4 +1,4 @@
-from project.worker import Worker
+from oop.encapsulation_exercise.wild_cat_zoo.worker import Worker
 
 
 class Vet(Worker):

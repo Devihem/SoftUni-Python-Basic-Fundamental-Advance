@@ -1,9 +1,5 @@
 from typing import List
-from project.animal import Animal
-from project.lion import Lion
-from project.tiger import Tiger
-from project.cheetah import Cheetah
-import os
+
 
 class Zoo:
     def __init__(self, name: str, budget: int, animal_capacity: int, workers_capacity: int):
@@ -43,7 +39,7 @@ class Zoo:
         if self.__budget >= total_salary_cost:
             self.__budget -= total_salary_cost
 
-            return f"They are happy. Budget left: {self.__budget}"
+            return f"You payed your workers. They are happy. Budget left: {self.__budget}"
         return "You have no budget to pay your workers. They are unhappy"
 
     def tend_animals(self):
@@ -51,7 +47,7 @@ class Zoo:
         if self.__budget >= total_tend_cost:
             self.__budget -= total_tend_cost
 
-            return f"You tended all the animals. They are happy. Budget left:{self.__budget}"
+            return f"You tended all the animals. They are happy. Budget left: {self.__budget}"
         return "You have no budget to tend the animals. They are unhappy."
 
     def profit(self, amount: int):
@@ -96,5 +92,5 @@ class Zoo:
                f"{hard_code_keeper}\n" \
                f"----- {len(workers_dict['Caretaker'])} Caretakers:\n" \
                f"{hard_code_caretaker}\n" \
-               f"----- {len(workers_dict['Vet'])} Vet:\n" \
+               f"----- {len(workers_dict['Vet'])} Vets:\n" \
                f"{hard_code_vet}"

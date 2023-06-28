@@ -1,4 +1,4 @@
-from project.animal import Animal
+from oop.encapsulation_exercise.wild_cat_zoo.animal import Animal
 
 
 class Lion(Animal):

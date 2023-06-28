@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/caretaker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/cheetah.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/keeper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/lion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/tiger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/vet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/zoo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_lab/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/caretaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/caretaker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/cheetah.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/cheetah.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/keeper.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/keeper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/lion.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/lion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/tiger.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/tiger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/vet.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/vet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/zoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/classes_and_objects_exercise/project_to_do_list&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/encapsulation_exercise/wild_cat_zoo",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -72,35 +71,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\wild_cat_zoo" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\inheritance_lab\" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\classes_and_objects_exercise\project_to_do_list" />
       <recent name="C:\Users\User1\PycharmProjects\oop\soft_uni_python" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\3_advance\7_exercise_modules\gui_shop" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="animal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/animal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="lion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/lion.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\wild_cat_zoo\lion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,6 +121,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\wild_cat_zoo\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/zoo.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\wild_cat_zoo\zoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.zoo" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.lion" />
-        <item itemvalue="Python.animal" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00048" summary=".">
-      <created>1687137491069</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1687137491069</updated>
     </task>
     <task id="LOCAL-00049" summary=".">
       <created>1687137501897</created>
@@ -547,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687890369659</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary=".">
+      <created>1687937894790</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1687937894790</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
