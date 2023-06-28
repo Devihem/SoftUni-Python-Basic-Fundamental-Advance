@@ -1,7 +1,7 @@
 class Account:
     def __init__(self, id_number, balance, pin):
-        self.__id = id_number
         self.balance = balance
+        self.__id = id_number
         self.__pin = pin
 
     def get_id(self, pin):
@@ -14,12 +14,3 @@ class Account:
             self.__pin = new_pin
             return "Pin changed"
         return "Wrong pin"
-
-
-account = Account(8827312, 100, 3421)
-print(account.get_id(1111))
-print(account.get_id(3421))
-print(account.balance)
-print(account.change_pin(2212, 4321))
-print(account.change_pin(3421, 1234))
-
