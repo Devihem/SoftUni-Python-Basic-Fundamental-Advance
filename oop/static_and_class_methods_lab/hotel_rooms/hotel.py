@@ -31,10 +31,12 @@ class Hotel:
 
         for x in self.rooms:
             self.guests += x.guests
+
             if not x.is_taken:
                 free_rooms.append(str(x.number))
             else:
                 taken_rooms.append(str(x.number))
+
         result = [
             f"Hotel {self.name} has {self.guests} total guests",
             f"Free rooms: {', '.join(free_rooms)}",
