@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/team.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/dough.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/pizza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/topping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/beverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/coffee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/cold_beverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/hot_beverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/tea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/cake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/dessert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/main_dish.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/salmon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/soup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/starter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_lab/person.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/zoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/encapsulation_exercise/football_team_generator",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/encapsulation_exercise/restaurant",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
@@ -71,35 +75,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\restaurant" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\football_team_generator" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\pizza_maker" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\wild_cat_zoo" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\inheritance_lab\" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
-    <configuration name="pizza" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\pizza_maker\pizza.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,7 +158,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\pizza_maker\test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\encapsulation_exercise\restaurant\test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,13 +188,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/zoo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.zoo" />
+        <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.team" />
-        <item itemvalue="Python.player" />
-        <item itemvalue="Python.test (2)" />
-        <item itemvalue="Python.pizza" />
       </list>
     </recent_temporary>
   </component>
@@ -223,13 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00050" summary=".">
-      <created>1687184123312</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1687184123313</updated>
     </task>
     <task id="LOCAL-00051" summary=".">
       <created>1687184169379</created>
@@ -567,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687938813748</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary=".">
+      <created>1687947862169</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1687947862169</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

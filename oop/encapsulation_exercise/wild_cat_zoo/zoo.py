@@ -34,6 +34,11 @@ class Zoo:
                 return f"{searched_worker.name} fired successfully"
         return f"There is no {worker_name} in the zoo"
 
+        # Next Method
+        # try:
+        #     worker = next(filter(lambda w: w.name == worker_name, self.workers))
+        # except StopIteration:
+        #     return f"There is no {worker_name} in the zoo"
     def pay_workers(self):
         total_salary_cost = sum([worker_obj.salary for worker_obj in self.workers])
         if self.__budget >= total_salary_cost:
@@ -62,17 +67,16 @@ class Zoo:
                 animals_dict[animal_type] = []
             animals_dict[animal_type].append(animal_type_repr)
 
-        hard_code_lions = '\n'.join(animals_dict['Lion'])
-        hard_code_tigers = '\n'.join(animals_dict['Tiger'])
-        hard_code_cheetahs = '\n'.join(animals_dict['Cheetah'])
-
-        return f"You have {len(self.animals)} animals\n" \
-               f"----- {len(animals_dict['Lion'])} Lions:\n" \
-               f"{hard_code_lions}\n" \
-               f"----- {len(animals_dict['Tiger'])} Tigers:\n" \
-               f"{hard_code_tigers}\n"\
-               f"----- {len(animals_dict['Cheetah'])} Cheetahs:\n" \
-               f"{hard_code_cheetahs}"
+        result = [
+            f"You have {len(self.animals)} animals",
+            f"----- {len(animals_dict['Lion'])} Lions:",
+            *animals_dict['Lion'],
+            f"----- {len(animals_dict['Tiger'])} Tigers:",
+            *animals_dict['Tiger'],
+            f"----- {len(animals_dict['Cheetah'])} Cheetahs:",
+            *animals_dict['Cheetah']
+        ]
+        return '\n'.join(result)
 
     def workers_status(self):
         workers_dict = {}
@@ -83,14 +87,13 @@ class Zoo:
                 workers_dict[worker_type] = []
             workers_dict[worker_type].append(worker_type_repr)
 
-        hard_code_keeper = '\n'.join(workers_dict['Keeper'])
-        hard_code_caretaker = '\n'.join(workers_dict['Caretaker'])
-        hard_code_vet = '\n'.join(workers_dict['Vet'])
-
-        return f"You have {len(self.workers)} workers\n" \
-               f"----- {len(workers_dict['Keeper'])} Keepers:\n" \
-               f"{hard_code_keeper}\n" \
-               f"----- {len(workers_dict['Caretaker'])} Caretakers:\n" \
-               f"{hard_code_caretaker}\n" \
-               f"----- {len(workers_dict['Vet'])} Vets:\n" \
-               f"{hard_code_vet}"
+        result = [
+            f"You have {len(self.workers)} workers",
+            f"----- {len(workers_dict['Keeper'])} Keepers:",
+            *workers_dict['Keeper'],
+            f"----- {len(workers_dict['Caretaker'])} Caretakers:",
+            *workers_dict['Caretaker'],
+            f"----- {len(workers_dict['Vet'])} Vets:",
+            *workers_dict['Vet']
+        ]
+        return '\n'.join(result)
