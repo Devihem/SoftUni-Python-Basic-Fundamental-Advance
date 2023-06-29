@@ -25,7 +25,7 @@ class Pizza:
 
     @dough.setter
     def dough(self, value):
-        if value == None:
+        if value is None:
             raise ValueError("You should add dough to the pizza")
         self.__dough = value
 
@@ -41,10 +41,9 @@ class Pizza:
 
     def add_topping(self, topping: Topping):
         if self.__max_number_of_toppings > len(self.toppings.keys()):
-            if topping.topping_type in self.toppings.keys():
-                self.toppings[topping.topping_type] += topping.weight
-            else:
-                self.toppings[topping.topping_type] = topping.weight
+            if topping.topping_type not in self.toppings.keys():
+                self.toppings[topping.topping_type] = 0
+            self.toppings[topping.topping_type] += topping.weight
 
         else:
             raise ValueError("Not enough space for another topping")
