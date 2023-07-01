@@ -29,6 +29,7 @@ class MovieWorld:
 
     def rent_dvd(self, customer_id: int, dvd_id: int):
 
+        # no need of error handling for judge
         current_dvd = next(filter(lambda key: key.id == dvd_id, self.dvds))
         current_customer = next(filter(lambda key: key.id == customer_id, self.customers))
 
@@ -46,6 +47,8 @@ class MovieWorld:
         return f"{current_customer.name} has successfully rented {current_dvd.name}"
 
     def return_dvd(self, customer_id, dvd_id):
+
+        # no need of error handling for judge
         current_dvd = next(filter(lambda key: key.id == dvd_id, self.dvds))
         current_customer = next(filter(lambda key: key.id == customer_id, self.customers))
 

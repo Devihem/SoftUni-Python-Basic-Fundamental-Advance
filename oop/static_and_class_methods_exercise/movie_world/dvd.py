@@ -19,7 +19,7 @@ class DVD:
         return cls(name, id_dvd_crt, year, mount, age_restriction)
 
     def __repr__(self):
-        status = 'rented' if self.is_rented is True else 'not rented'
+        status = 'rented' if self.is_rented else 'not rented'
 
         return f"{self.id}: {self.name} ({self.creation_month} {self.creation_year}) " \
                f"has age restriction {self.age_restriction}. Status: {status}"
