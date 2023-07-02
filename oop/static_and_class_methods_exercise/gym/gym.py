@@ -39,6 +39,7 @@ class Gym:
         current_trainer = next(filter(lambda k: k.id == current_subs.trainer_id, self.trainers))
         current_exercise = next(filter(lambda k: k.id == current_subs.exercise_id, self.plans))
         current_equipment = next(filter(lambda k: k.id == current_exercise.equipment_id, self.equipment))
+
         result = [current_subs,
                   current_customer,
                   current_trainer,
