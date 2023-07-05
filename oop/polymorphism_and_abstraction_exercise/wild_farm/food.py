@@ -2,22 +2,26 @@ from abc import ABC, abstractmethod
 
 
 class Food(ABC):
-
+    @abstractmethod
     def __init__(self, quantity):
         self.quantity = quantity
 
 
 class Vegetable(Food):
-    pass
+    def __init__(self, quantity):
+        super().__init__(quantity)
 
 
 class Fruit(Food):
-    pass
+    def __init__(self, quantity):
+        super().__init__(quantity)
 
 
 class Meat(Food):
-    pass
+    def __init__(self, quantity):
+        super().__init__(quantity)
 
 
 class Seed(Food):
-    pass
+    def __init__(self, quantity):
+        super().__init__(quantity)
