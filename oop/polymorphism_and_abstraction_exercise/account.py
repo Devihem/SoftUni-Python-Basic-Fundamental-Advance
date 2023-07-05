@@ -8,16 +8,17 @@ class Account:
         if self.balance + transaction_amount >= 0:
             self._transactions.append(transaction_amount)
             return f"New balance: {self.balance}"
-        raise ValueError("sorry cannot go in debt!")
-
-    def add_transaction(self, amount):
-        if type(amount) != int:
-            raise ValueError("please use int for amount")
-        return self.handle_transaction(amount)
+        else:
+            raise ValueError("sorry cannot go in debt!")
 
     @property
     def balance(self):
         return self.amount + sum(self._transactions)
+
+    def add_transaction(self, amount):
+        if isinstance(amount, int):
+            return self.handle_transaction(amount)
+        raise ValueError("please use int for amount")
 
     def __str__(self):
         return f"Account of {self.owner} with starting amount: {self.amount}"
@@ -30,6 +31,9 @@ class Account:
 
     def __getitem__(self, item):
         return self._transactions[item]
+
+    def __reversed__(self):
+        return reversed(self._transactions)
 
     def __lt__(self, other):
         return self.balance < other.balance
@@ -65,8 +69,9 @@ acc.add_transaction(30)
 print(acc.balance)
 print(len(acc))
 for transaction in acc:
- print(transaction)
+    print(transaction)
 print(acc[1])
+print(list(acc))
 print(list(reversed(acc)))
 acc2.add_transaction(10)
 acc2.add_transaction(60)
@@ -79,4 +84,3 @@ print(acc != acc2)
 acc3 = acc + acc2
 print(acc3)
 print(acc3._transactions)
-
