@@ -1,4 +1,4 @@
-from project.formula_teams.formula_team import FormulaTeam
+from oop.polymorphism_and_abstraction_exercise.formula_1_manager.formula_teams.formula_team import FormulaTeam
 
 
 class RedBullTeam(FormulaTeam):

@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/01_SRP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/01_SRP/books.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/02_OCP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/02_OCP/animal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/03_LSP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/03_LSP/ducks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/04_ISP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/04_ISP/entertainment_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/05_DIP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_lab/05_DIP/print_books.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_zone_devihem/banana_stock_price/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/f1_season_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/f1_season_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/formula_teams/formula_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/formula_teams/formula_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/formula_teams/mercedes_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/formula_teams/mercedes_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/formula_teams/red_bull_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/formula_teams/red_bull_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/polymorphism_and_abstraction_exercise/animals",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/polymorphism_and_abstraction_exercise/formula_1_manager&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -64,15 +71,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\formula_1_manager" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\animals" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\wild_farm" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\animals" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\static_and_class_methods_exercise\gym" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.f1_season_app">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="f1_season_app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/f1_season_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/f1_season_app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\formula_1_manager\f1_season_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,6 +142,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_zone_devihem/banana_stock_price" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_zone_devihem/banana_stock_price/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="red_bull_team" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,34 +184,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.f1_season_app (1)" />
         <item itemvalue="Python.f1_season_app" />
         <item itemvalue="Python.red_bull_team" />
         <item itemvalue="Python.formula_team" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.account" />
       </list>
     </recent_temporary>
   </component>
@@ -195,20 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00077" summary=".">
-      <created>1687520388789</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1687520388789</updated>
-    </task>
-    <task id="LOCAL-00078" summary=".">
-      <created>1687525821740</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1687525821740</updated>
     </task>
     <task id="LOCAL-00079" summary=".">
       <created>1687531452130</created>
@@ -539,7 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688548779517</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary=".">
+      <created>1688562775347</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1688562775347</updated>
+    </task>
+    <task id="LOCAL-00127" summary=".">
+      <created>1688565012812</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1688565012812</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

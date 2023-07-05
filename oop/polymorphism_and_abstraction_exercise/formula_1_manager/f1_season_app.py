@@ -1,5 +1,5 @@
-from project.formula_teams.red_bull_team import RedBullTeam
-from project.formula_teams.mercedes_team import MercedesTeam
+from oop.polymorphism_and_abstraction_exercise.formula_1_manager.formula_teams.red_bull_team import RedBullTeam
+from oop.polymorphism_and_abstraction_exercise.formula_1_manager.formula_teams.mercedes_team import MercedesTeam
 
 
 class F1SeasonApp:
@@ -26,6 +26,7 @@ class F1SeasonApp:
             raise Exception("Not all teams have registered for the season.")
 
         ahead_team = 'Red Bull' if red_bull_pos < mercedes_pos else 'Mercedes'
+
         red_bull_revenue = self.red_bull_team.calculate_revenue_after_race(red_bull_pos)
         mercedes_revenue = self.mercedes_team.calculate_revenue_after_race(mercedes_pos)
 
