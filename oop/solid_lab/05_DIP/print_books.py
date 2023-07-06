@@ -3,13 +3,26 @@ class Book:
         self.content = content
 
 
-class Formatter:
-    def format(self, book: Book) -> str:
+class NormalFormatter:
+    @staticmethod
+    def format(book: Book) -> str:
         return book.content
 
 
+class SpecialFormatter:
+    @staticmethod
+    def format(book: Book) -> str:
+        return f"-----------------------\n" \
+               f"{book.content}\n" \
+               f"-----------------------\n"
+
+
 class Printer:
-    def get_book(self, book: Book):
-        formatter = Formatter()
-        formatted_book = formatter.format(book)
-        return formatted_book
+    @staticmethod
+    def get_book(book: Book, formatter_version):
+        formatter = formatter_version.format(book)
+        print(formatter)
+
+
+book_233 = Book('Some Content')
+Printer.get_book(book_233, SpecialFormatter)
