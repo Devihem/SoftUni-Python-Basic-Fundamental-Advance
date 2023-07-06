@@ -1,11 +1,10 @@
-data_dict_price = {
-    "Kaufland": 3.50,
-    "Billa": 3.60,
-    "Metro": 3.40,
-    "Lidl": 3.70
-}
+class Banana:
+    def __init__(self, name):
+        self.name = name
 
-result = sum(data_dict_price.values()) / len(data_dict_price.values())
+    def __add__(self, other):
+        return banan_print
+
 
 print(""
       " _"
