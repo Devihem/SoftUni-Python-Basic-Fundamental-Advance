@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/solid_exercise/emails.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_exercise/prisoner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_exercise/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_exercise/workers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/solid_exercise/workers_updated.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/04_ISP/entertainment_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/solid_lab/04_ISP/entertainment_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/05_DIP/print_books.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/solid_lab/05_DIP/print_books.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +70,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.print_books">
-    <configuration name="animal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.shapes">
+    <configuration name="prisoner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_lab/02_OCP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_lab/02_OCP/animal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_exercise/prisoner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ducks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="section" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_lab/03_LSP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_lab/03_LSP/ducks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/section.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_exercise/shapes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="workers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project_zone_devihem/banana_stock_price" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project_zone_devihem/banana_stock_price/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_exercise/workers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="print_books" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="workers_updated" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_lab/05_DIP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_lab/05_DIP/print_books.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_exercise/workers_updated.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.print_books" />
-        <item itemvalue="Python.ducks" />
-        <item itemvalue="Python.animal" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.shapes" />
+        <item itemvalue="Python.prisoner" />
+        <item itemvalue="Python.workers_updated" />
+        <item itemvalue="Python.workers" />
+        <item itemvalue="Python.section" />
       </list>
     </recent_temporary>
   </component>
@@ -191,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00083" summary=".">
-      <created>1687582073631</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1687582073631</updated>
     </task>
     <task id="LOCAL-00084" summary=".">
       <created>1687584901471</created>
@@ -535,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688651426020</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary=".">
+      <created>1688659607209</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1688659607209</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
