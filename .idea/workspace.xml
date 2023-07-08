@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/vowels.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_lab/vowels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/reverse_iter.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_lab/reverse_iter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.vowels">
+  <component name="RunManager" selected="Python.reverse_iter">
     <configuration name="emails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prisoner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="reverse_iter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/solid_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/iterators_and_generators_lab" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/solid_exercise/prisoner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/iterators_and_generators_lab/reverse_iter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverse_iter" />
         <item itemvalue="Python.vowels" />
         <item itemvalue="Python.file_creator" />
         <item itemvalue="Python.emails" />
         <item itemvalue="Python.shapes" />
-        <item itemvalue="Python.prisoner" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00086" summary=".">
-      <created>1687766197637</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1687766197637</updated>
     </task>
     <task id="LOCAL-00087" summary=".">
       <created>1687775714275</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688735528841</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary=".">
+      <created>1688809642533</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1688809642533</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
