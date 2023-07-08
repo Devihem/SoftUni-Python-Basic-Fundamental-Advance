@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/generator_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_lab/generator_range.py" afterDir="false" />
-    </list>
+    <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +63,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reverse_string">
+  <component name="RunManager" selected="Python.file_creator">
     <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_creator" />
         <item itemvalue="Python.reverse_string" />
         <item itemvalue="Python.squares" />
         <item itemvalue="Python.vowels" />
         <item itemvalue="Python.reverse_iter" />
-        <item itemvalue="Python.file_creator" />
       </list>
     </recent_temporary>
   </component>
@@ -190,20 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00089" summary=".">
-      <created>1687809513958</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1687809513958</updated>
-    </task>
-    <task id="LOCAL-00090" summary=".">
-      <created>1687809678543</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1687809678543</updated>
     </task>
     <task id="LOCAL-00091" summary=".">
       <created>1687846651075</created>
@@ -534,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688824465736</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary=".">
+      <created>1688826582981</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1688826582981</updated>
+    </task>
+    <task id="LOCAL-00139" summary=".">
+      <created>1688827088938</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1688827088938</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
