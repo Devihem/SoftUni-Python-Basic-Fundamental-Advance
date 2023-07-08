@@ -1,20 +1,20 @@
-class custom_range:
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-        self.counter = start
+class vowels:
+    VOWELS_LIST = "eyuioaEUIYA"
+
+    def __init__(self, string):
+        # Unlogical solution from SoftUni
+        self.string = [symbol for symbol in string if symbol in self.VOWELS_LIST]
 
     def __iter__(self):
         return self
 
     def __next__(self):
-        if self.counter > self.end:
+        if not self.string:
             raise StopIteration
-        result = self.counter
-        self.counter += 1
-        return result
+
+        return self.string.pop(0)
 
 
-one_to_ten = custom_range(0, 10)
-for num in one_to_ten:
-    print(num)
+my_string = vowels('Abcedifuty0o')
+for char in my_string:
+    print(char)
