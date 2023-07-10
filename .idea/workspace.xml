@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/take_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/take_skip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/countdown_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/countdown_iterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/fibonacci_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/fibonacci_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/prime_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/prime_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/groups.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.take_skip">
+  <component name="RunManager" selected="Python.groups">
     <configuration name="fibonacci_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="possible_permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="groups (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +100,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/iterators_and_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/iterators_and_generators_exercise/possible_permutations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/groups.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="groups" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/groups" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/groups/groups.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,31 +176,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="take_skip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/iterators_and_generators_exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/iterators_and_generators_exercise/take_skip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.take_skip" />
-        <item itemvalue="Python.possible_permutations" />
+        <item itemvalue="Python.groups" />
+        <item itemvalue="Python.groups (1)" />
         <item itemvalue="Python.prime_numbers" />
         <item itemvalue="Python.reader" />
         <item itemvalue="Python.fibonacci_generator" />
@@ -190,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00097" summary=".">
-      <created>1687937894790</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1687937894790</updated>
     </task>
     <task id="LOCAL-00098" summary=".">
       <created>1687938813748</created>
@@ -534,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688901786031</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary=".">
+      <created>1688912892232</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1688912892232</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

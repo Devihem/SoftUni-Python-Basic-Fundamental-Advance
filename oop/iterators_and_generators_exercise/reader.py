@@ -1,11 +1,7 @@
 def read_next(*args):
-    all_items_list = []
     for item in args:
         for symb in item:
-            all_items_list.append(str(symb))
-
-    while all_items_list:
-        yield all_items_list.pop(0)
+            yield str(symb)
 
 
 for item in read_next("string", (2,), {"d": 1, "i": 2, "c": 3, "t": 4}):
