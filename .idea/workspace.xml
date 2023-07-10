@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/countdown_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/countdown_iterator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/fibonacci_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/fibonacci_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/prime_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/prime_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/groups.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +65,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.groups">
-    <configuration name="fibonacci_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.file_creator">
+    <configuration name="file_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/iterators_and_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/iterators_and_generators_exercise/fibonacci_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/file_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_creator" />
         <item itemvalue="Python.groups" />
         <item itemvalue="Python.groups (1)" />
         <item itemvalue="Python.prime_numbers" />
         <item itemvalue="Python.reader" />
-        <item itemvalue="Python.fibonacci_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -194,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00098" summary=".">
-      <created>1687938813748</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1687938813748</updated>
     </task>
     <task id="LOCAL-00099" summary=".">
       <created>1687947862169</created>
@@ -538,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688912892232</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary=".">
+      <created>1688971148315</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1688971148316</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
