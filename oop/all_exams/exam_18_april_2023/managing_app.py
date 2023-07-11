@@ -1,9 +1,9 @@
 import copy
 
-from project.user import User
-from project.route import Route
-from project.vehicles.cargo_van import CargoVan
-from project.vehicles.passenger_car import PassengerCar
+from oop.all_exams.exam_18_april_2023.user import User
+from oop.all_exams.exam_18_april_2023.route import Route
+from oop.all_exams.exam_18_april_2023.vehicles.cargo_van import CargoVan
+from oop.all_exams.exam_18_april_2023.vehicles.passenger_car import PassengerCar
 
 
 class ManagingApp:
@@ -20,7 +20,6 @@ class ManagingApp:
             self.users.append(User(first_name, last_name, driving_license_number))
             return f"{first_name} {last_name} was successfully registered under DLN-{driving_license_number}"
 
-    # FISHYYY !!!
     def upload_vehicle(self, vehicle_type: str, brand: str, model: str, license_plate_number: str):
         if vehicle_type not in ["PassengerCar", "CargoVan"]:
             return f"Vehicle type {vehicle_type} is inaccessible."
@@ -50,6 +49,7 @@ class ManagingApp:
             self.routes.append(Route(start_point, end_point, length, len(self.routes) + 1))
             return f"{start_point}/{end_point} - {length} km is unlocked and available to use."
 
+    # Testing the return if it's REAL string or obj - test number -5
     def make_trip(self, driving_license_number: str, license_plate_number: str, route_id: int,
                   is_accident_happened: bool):
         # 100% True - Driving_license, Plate_number , Route_id , Battery enough allays
@@ -86,8 +86,10 @@ class ManagingApp:
         for vehicle in self.vehicles:
             if vehicle.is_damaged:
                 damaged_vehicle.append(vehicle)
+
         if damaged_vehicle:
             damaged_vehicle = sorted(damaged_vehicle, key=lambda k: (k.brand, k.model))
+
         for repair in range(count):
             if damaged_vehicle:
                 repaired += 1

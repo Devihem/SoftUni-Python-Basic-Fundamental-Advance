@@ -1,4 +1,4 @@
-from project.motorcycle import Motorcycle
+from project import Motorcycle
 
 
 class RaceMotorcycle(Motorcycle):

@@ -1,6 +1,6 @@
 from abc import ABC
-from project.food import Meat, Vegetable, Fruit, Seed
-from project.animals.animal import Mammal
+from project import Meat, Vegetable, Fruit
+from project import Mammal
 
 
 class Mouse(Mammal, ABC):

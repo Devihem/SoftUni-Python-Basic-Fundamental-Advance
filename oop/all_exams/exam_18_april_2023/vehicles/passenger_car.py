@@ -1,4 +1,4 @@
-from project.vehicles.base_vehicle import BaseVehicle
+from oop.all_exams.exam_18_april_2023.vehicles.base_vehicle import BaseVehicle
 
 
 class PassengerCar(BaseVehicle):
