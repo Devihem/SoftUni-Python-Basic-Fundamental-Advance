@@ -1,48 +1,8 @@
-class Person:
-    def __init__(self, name, surname):  # Преименуван Surname  от Sirname
-        self.name = name
-        self.surname = surname
+value = "    s    "
+z = " "
 
-    def __add__(self, other):
-        return f"{self.name} {other.surname}"
+if z.strip():
+    print('HERE')
 
-    def __repr__(self):
-        return f"{self.name} {self.surname}"
-
-
-class Group:
-    def __init__(self, name, people):
-        self.name = name
-        self.people = people
-
-    def __add__(self, other):
-        return __class__(f'{self.name} {other.name}', self.people + other.people)
-        # Това го добавих за да ги създаде по правилно по условие __class__(f'{self.name} {other.name}'
-
-    def __len__(self):
-        return len(self.people)
-
-    def __getitem__(self, idx):
-        return f"Person {idx}: {self.people[idx]}"
-
-    def __repr__(self):
-        people_in_group = []
-        for person in self.people:
-            print(person.__repr__())
-            people_in_group.append(person.__repr__())
-        return f"Group {self.name} with members {', '.join(people_in_group)}"
-
-
-p0 = Person('Aliko', 'Dangote')
-p1 = Person('Bill', 'Gates')
-p2 = Person('Warren', 'Buffet')
-p3 = Person('Elon', 'Musk')
-p4 = p2 + p3
-first_group = Group('__VIP__', [p0, p1, p2])
-second_group = Group('Special', [p3, p4])
-third_group = first_group + second_group
-print(len(first_group))
-print(second_group)
-print(third_group[0])
-for person in third_group:
-    print(person)
+if value.strip():
+    print('HERE')
