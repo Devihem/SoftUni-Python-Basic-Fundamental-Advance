@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/even_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/even_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/bold__italic__underline.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/bold__italic__underline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +66,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\wild_farm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.even_parameters">
-    <configuration name="base_vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.bold__italic__underline">
+    <configuration name="bold__italic__underline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/vehicles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/decorators_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/vehicles/base_vehicle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/decorators_exercise/bold__italic__underline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bold__italic__underline" />
         <item itemvalue="Python.even_parameters" />
         <item itemvalue="Python.managing_app" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.passenger_car" />
-        <item itemvalue="Python.base_vehicle" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00105" summary=".">
-      <created>1688051574388</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1688051574388</updated>
     </task>
     <task id="LOCAL-00106" summary=".">
       <created>1688052503600</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689089781648</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary=".">
+      <created>1689091088151</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1689091088151</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
