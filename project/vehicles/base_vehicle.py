@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class BaseVehicle:
+class BaseVehicle(ABC):
     def __init__(self, brand: str, model: str, license_plate_number: str, max_mileage: float, ):
         self.brand = brand
         self.model = model
@@ -40,9 +40,9 @@ class BaseVehicle:
             raise ValueError("License plate number is required!")
         self.__license_plate_number = value
 
-    # @abstractmethod
-    # def drive(self, mileage: float):
-    #     pass
+    @abstractmethod
+    def drive(self, mileage: float):
+        pass
 
     def recharge(self):
         self.battery_level = 100

@@ -1,8 +1,3 @@
-value = "    s    "
-z = " "
-
-if z.strip():
-    print('HERE')
-
-if value.strip():
-    print('HERE')
+x = 5
+for _ in range(5):
+    print(_)

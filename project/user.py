@@ -7,7 +7,6 @@ class User:
         self.rating = 0
         self.is_blocked = False
 
-    # FISHY
     @property
     def rating(self):
         return self.__rating
