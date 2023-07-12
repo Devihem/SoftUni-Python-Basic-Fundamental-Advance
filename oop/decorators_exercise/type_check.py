@@ -1,7 +1,7 @@
 def type_check(param_type):
     def decorator(func):
         def wrapper(*args):
-            if param_type == type(args[0]):
+            if isinstance(args[0], param_type):
                 return func(*args)
             return "Bad Type"
 
