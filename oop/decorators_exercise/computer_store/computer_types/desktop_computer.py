@@ -1,4 +1,4 @@
-from project.computer_types.computer import Computer
+from oop.decorators_exercise.computer_store.computer_types.computer import Computer
 
 
 class DesktopComputer(Computer):

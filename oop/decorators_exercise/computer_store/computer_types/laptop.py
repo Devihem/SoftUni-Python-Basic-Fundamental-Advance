@@ -1,4 +1,4 @@
-from project.computer_types.computer import Computer
+from oop.decorators_exercise.computer_store.computer_types.computer import Computer
 
 
 class Laptop(Computer):
@@ -12,13 +12,12 @@ class Laptop(Computer):
     def configure_computer(self, processor: str, ram: int):
         # Processor Check
         if processor not in self.PROCESSORS.keys():
-            raise ValueError(f"{processor} is not compatible with desktop computer {self.manufacturer} {self.model}!")
+            raise ValueError(f"{processor} is not compatible with laptop {self.manufacturer} {self.model}!")
 
         # RamCheck
         ram_check = self.ram_check(ram)
         if not ram_check:
-            # WARNING - PURE STR
-            raise ValueError(f"{ram}GB RAM is not compatible with desktop computer {self.manufacturer} {self.model}!")
+            raise ValueError(f"{ram}GB RAM is not compatible with laptop {self.manufacturer} {self.model}!")
 
         # Creating Computer
         self.processor = processor

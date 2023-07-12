@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Working almost.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/computer_store_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/computer_store_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/computer_types/computer.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/computer_types/computer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/computer_types/desktop_computer.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/computer_types/desktop_computer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/computer_types/laptop.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/computer_types/laptop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working almost.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/computer_store_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_store_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/computer_types/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/computer_types/computer.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/computer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/computer_types/desktop_computer.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/desktop_computer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/computer_types/laptop.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/laptop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_18_april_2023&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/decorators_exercise/computer_store&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
@@ -71,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\decorators_exercise\computer_store" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\formula_1_manager" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\project\" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\animals" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\wild_farm" />
     </key>
   </component>
   <component name="RunManager" selected="Python.computer_store_app">
@@ -112,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/computer_store_app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\decorators_exercise\computer_store\computer_store_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,20 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00109" summary=".">
-      <created>1688224235806</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1688224235807</updated>
-    </task>
-    <task id="LOCAL-00110" summary=".">
-      <created>1688274034772</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1688274034772</updated>
     </task>
     <task id="LOCAL-00111" summary=".">
       <created>1688297821157</created>
@@ -546,7 +528,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689101137963</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary=".">
+      <created>1689142364352</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1689142364352</updated>
+    </task>
+    <task id="LOCAL-00159" summary=".">
+      <created>1689143141474</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1689143141474</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
