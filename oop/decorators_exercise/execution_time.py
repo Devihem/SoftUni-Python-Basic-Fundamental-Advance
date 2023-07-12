@@ -19,7 +19,7 @@ def loop(start, end):
     return total
 
 
-print(loop(1, 10000000))
+print(loop(1, 10_000_000))
 
 
 @exec_time

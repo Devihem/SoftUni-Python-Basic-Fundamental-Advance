@@ -10,23 +10,19 @@ class ComputerStoreApp:
         self.profits = 0
 
     def build_computer(self, type_computer: str, manufacturer: str, model: str, processor: str, ram: int):
-        if not type_computer in self.VALID_COMPUTERS.keys():
+        if type_computer not in self.VALID_COMPUTERS.keys():
             raise ValueError(f"{type_computer} is not a valid type computer!")
 
         self.warehouse.append(self.VALID_COMPUTERS[type_computer](manufacturer, model))
         return self.warehouse[-1].configure_computer(processor, ram)
 
     def sell_computer(self, client_budget: int, wanted_processor: str, wanted_ram: int):
-        searched_computer = None
         for device in self.warehouse:
             if device.price <= client_budget and device.processor == wanted_processor and device.ram >= wanted_ram:
-                searched_computer = device
-                # Removing it from warehouse
+                self.profits += client_budget - device.price
                 self.warehouse.remove(device)
-                break
+                return f"{device} sold for {client_budget}$."
 
-        if not searched_computer:
-            raise Exception("Sorry, we don't have a computer for you.")
+        raise Exception("Sorry, we don't have a computer for you.")
 
-        self.profits += client_budget - searched_computer.price
-        return f"{searched_computer} sold for {client_budget}$."
+#  I made some changes without testing them ( to annoying to pack them again , msg me if there is some issue )
