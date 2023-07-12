@@ -11,7 +11,7 @@ class ComputerStoreApp:
 
     def build_computer(self, type_computer: str, manufacturer: str, model: str, processor: str, ram: int):
         if not type_computer in self.VALID_COMPUTERS.keys():
-            return ValueError(f"{type_computer} is not a valid type computer!")
+            raise ValueError(f"{type_computer} is not a valid type computer!")
 
         self.warehouse.append(self.VALID_COMPUTERS[type_computer](manufacturer, model))
         return self.warehouse[-1].configure_computer(processor, ram)
@@ -30,3 +30,8 @@ class ComputerStoreApp:
 
         self.profits += client_budget - searched_computer.price
         return f"{searched_computer} sold for {client_budget}$."
+
+
+computer_store = ComputerStoreApp()
+print(computer_store.build_computer("Laptop", "Apple", "Macbook", "Apple M1 Pro", 64))
+print(computer_store.sell_computer(1800, "Apple M1 Pro", 64))

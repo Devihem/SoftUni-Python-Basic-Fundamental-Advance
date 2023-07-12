@@ -36,6 +36,3 @@ class DesktopComputer(Computer):
             if current_ram_index == ram:
                 return counter
         return None
-
-# x = DesktopComputer("SAD",'DDD')
-# x.configure_computer("Apple M1 Max",8)
