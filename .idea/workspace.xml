@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/testing_lab/car_manager_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/testing_lab/extended_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_store_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_store_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/execution_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/decorators_exercise/execution_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/car_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/test_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/test_cat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.computer_store_app (1)">
+  <component name="RunManager" selected="Python.test_cat">
     <configuration name="cache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,27 +112,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="computer_store_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\decorators_exercise\computer_store\computer_store_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="execution_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +125,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/decorators_exercise/execution_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_cat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/testing_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/testing_lab/test_cat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_cat" />
         <item itemvalue="Python.computer_store_app (1)" />
         <item itemvalue="Python.execution_time" />
         <item itemvalue="Python.cache" />
         <item itemvalue="Python.type_check" />
-        <item itemvalue="Python.computer_store_app" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00113" summary=".">
-      <created>1688301364464</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1688301364464</updated>
     </task>
     <task id="LOCAL-00114" summary=".">
       <created>1688365554112</created>
@@ -536,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689152491204</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary=".">
+      <created>1689159732515</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1689159732515</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
