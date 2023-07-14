@@ -4,7 +4,7 @@ from unittest import TestCase, main
 
 class CarTest(TestCase):
     def test_starting_information_all_correct(self):
-        # Cat(Str, Str, Int, Int)
+        # Car (Str, Str, Int, Int)
         car_1 = Car("Audi", "A3", 1, 10)
         self.assertEqual("Audi", car_1.make)
         self.assertEqual("A3", car_1.model)
