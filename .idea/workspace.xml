@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/testing_lab/cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/testing_lab/list_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/testing_lab/worker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/test_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/test_cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/test_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/test_worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_basic/2_lab_conditional_statements/6_speed_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_basic/2_lab_conditional_statements/6_speed_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/car_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/car_manager_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/car_manager_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/extended_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/test_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/cat_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_lab/test_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/worker_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,29 +75,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\polymorphism_and_abstraction_exercise\animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_cat.CatTest.test_cat_cannot_go_to_sleep_without_food_raise_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in car_manager_test.py">
+    <configuration name="Python tests for car_manager_test.CarTest.test_drive_distance_to_long" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +86,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cat.CatTest.test_cat_cannot_go_to_sleep_without_food_raise_error&quot;" />
+      <option name="_new_target" value="&quot;car_manager_test.CarTest.test_drive_distance_to_long&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_cat.CatTest.test_cat_is_fed_after_eating_raise_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for car_manager_test.CarTest.test_drive_use_all_fuel_correct" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +100,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cat.CatTest.test_cat_is_fed_after_eating_raise_error&quot;" />
+      <option name="_new_target" value="&quot;car_manager_test.CarTest.test_drive_use_all_fuel_correct&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_cat.CatTest.test_cat_is_not_sleepy_after_sleep" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for car_manager_test.CarTest.test_refuel_incorrect" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +114,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cat.CatTest.test_cat_is_not_sleepy_after_sleep&quot;" />
+      <option name="_new_target" value="&quot;car_manager_test.CarTest.test_refuel_incorrect&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_cat.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for car_manager_test.CarTest.test_refuel_over_the_limit" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,17 +128,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/testing_lab/test_cat.py&quot;" />
+      <option name="_new_target" value="&quot;car_manager_test.CarTest.test_refuel_over_the_limit&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in car_manager_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/testing_lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/testing_lab/car_manager_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests in test_cat.py" />
-        <item itemvalue="Python tests.Python tests for test_cat.CatTest.test_cat_is_not_sleepy_after_sleep" />
-        <item itemvalue="Python tests.Python tests for test_cat.CatTest.test_cat_cannot_go_to_sleep_without_food_raise_error" />
-        <item itemvalue="Python tests.Python tests for test_cat.CatTest.test_cat_is_fed_after_eating_raise_error" />
+        <item itemvalue="Python tests.Python tests in car_manager_test.py" />
+        <item itemvalue="Python tests.Python tests for car_manager_test.CarTest.test_drive_distance_to_long" />
+        <item itemvalue="Python tests.Python tests for car_manager_test.CarTest.test_drive_use_all_fuel_correct" />
+        <item itemvalue="Python tests.Python tests for car_manager_test.CarTest.test_refuel_incorrect" />
+        <item itemvalue="Python tests.Python tests for car_manager_test.CarTest.test_refuel_over_the_limit" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00115" summary=".">
-      <created>1688441626082</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1688441626083</updated>
     </task>
     <task id="LOCAL-00116" summary=".">
       <created>1688443516839</created>
@@ -508,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689227318801</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary=".">
+      <created>1689243841532</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1689243841532</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
