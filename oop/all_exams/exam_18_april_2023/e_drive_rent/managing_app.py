@@ -1,9 +1,9 @@
 import copy
 
-from oop.all_exams.exam_18_april_2023.user import User
-from oop.all_exams.exam_18_april_2023.route import Route
-from oop.all_exams.exam_18_april_2023.vehicles.cargo_van import CargoVan
-from oop.all_exams.exam_18_april_2023.vehicles.passenger_car import PassengerCar
+from oop.all_exams.exam_18_april_2023.e_drive_rent.user import User
+from oop.all_exams.exam_18_april_2023.e_drive_rent.route import Route
+from oop.all_exams.exam_18_april_2023.e_drive_rent.vehicles.cargo_van import CargoVan
+from oop.all_exams.exam_18_april_2023.e_drive_rent.vehicles.passenger_car import PassengerCar
 
 
 class ManagingApp:
