@@ -1,23 +1,33 @@
-def solution():
-    def integers():
-        i = 1
-        while True:
-            yield i
-            i += 1
+degrees = int(input())
+time_of_the_day = input()
 
-    def halves():
-        for i in integers():
-            yield i / 2
+time_of_the_day_possibilities_tuple = ("Morning", "Afternoon", "Evening")
+outfit_list = ["Sweatshirt", "Shirt", "T-Shirt", "Swim Suit"]
+shoes_list = ["Sneakers", "Moccasins", "Sandals", "Barefoot"]
 
-    def take(n, seq):
-        m = 0
-        while m < n:
-            yield next(seq)
-            m += 1
+if 10 <= degrees <= 18 and time_of_the_day == time_of_the_day_possibilities_tuple[0]:
+    print(f"It's {degrees} degrees, get your {outfit_list[0]} and {shoes_list[0]}.")
 
-    return (take, halves, integers)
+elif 10 <= degrees <= 18 and time_of_the_day == time_of_the_day_possibilities_tuple[1]:
+    print(f"It's {degrees} degrees, get your {outfit_list[1]} and {shoes_list[1]}.")
 
+elif 10 <= degrees <= 18 and time_of_the_day == time_of_the_day_possibilities_tuple[2]:
+    print(f"It's {degrees} degrees, get your {outfit_list[1]} and {shoes_list[1]}.")
 
-take = solution()[0]
-halves = solution()[1]
-print(list(take(5, halves())))
+elif 18 < degrees <= 24 and time_of_the_day == time_of_the_day_possibilities_tuple[0]:
+    print(f"It's {degrees} degrees, get your {outfit_list[1]} and {shoes_list[1]}.")
+
+elif 18 < degrees <= 24 and time_of_the_day == time_of_the_day_possibilities_tuple[1]:
+    print(f"It's {degrees} degrees, get your {outfit_list[2]} and {shoes_list[2]}.")
+
+elif 18 < degrees <= 24 and time_of_the_day == time_of_the_day_possibilities_tuple[2]:
+    print(f"It's {degrees} degrees, get your {outfit_list[1]} and {shoes_list[1]}.")
+
+elif degrees >= 25 and time_of_the_day == time_of_the_day_possibilities_tuple[0]:
+    print(f"It's {degrees} degrees, get your {(outfit_list[2])} and {(shoes_list[2])}.")
+
+elif degrees >= 25 and time_of_the_day == time_of_the_day_possibilities_tuple[1]:
+    print(f"It's {degrees} degrees, get your {(outfit_list[3])} and {(shoes_list[3])}.")
+
+elif degrees >= 25 and time_of_the_day == time_of_the_day_possibilities_tuple[2]:
+    print(f"It's {degrees} degrees, get your {(outfit_list[1])} and {(shoes_list[1])}.")
