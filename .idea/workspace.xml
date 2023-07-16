@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/hardware/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/hardware/hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/hardware/power_hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/software/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/software/express_software.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/software/light_software.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/software/software.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/test_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_exercise/test_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/robot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,28 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test.py">
+  <component name="RunManager" selected="Python.light_software">
+    <configuration name="light_software" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/software" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/software/light_software.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,20 +151,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_lower_or_same_version" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_lower_or_same_version&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.light_software" />
         <item itemvalue="Python tests.Python tests in test.py" />
         <item itemvalue="Python.robot" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_gt_method_for_equal_price" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_higher_version" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_lower_or_same_version" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00122" summary=".">
-      <created>1688543770240</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1688543770240</updated>
     </task>
     <task id="LOCAL-00123" summary=".">
       <created>1688543815128</created>
@@ -515,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689449303303</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary=".">
+      <created>1689489907028</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1689489907028</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
