@@ -1,4 +1,4 @@
-from project.student import Student
+from project import Student
 from unittest import TestCase
 
 

@@ -1,4 +1,4 @@
-from project.robot import Robot
+from project import Robot
 from unittest import TestCase, main
 
 
@@ -52,6 +52,24 @@ class TestRobot(TestCase):
         result = self.robot.update(7, 10)
         self.assertEqual('Robot 12345 was updated to version 7.', result)
 
-    # GT - Greater Than
+    def test_gt_method_for_equal_price(self):
+        robot_new = Robot("12345", "Military", 100, 1000.0)
+        result = self.robot > robot_new
+        self.assertEqual('Robot with ID 12345 costs equal to Robot with ID 12345.', result)
+
+    def test_gt_method_for_greater(self):
+        robot_new = Robot("12345", "Military", 100, 999)
+        result = self.robot > robot_new
+        self.assertEqual('Robot with ID 12345 is more expensive than Robot with ID 12345.', result)
+
+    def test_gt_method_for_lower_than(self):
+        robot_new = Robot("12345", "Military", 100, 1001.0)
+        result = self.robot > robot_new
+        self.assertEqual('Robot with ID 12345 is cheaper than Robot with ID 12345.', result)
+
+
+# GT - Greater Than
+
+
 if __name__ == "__main__":
     main()
