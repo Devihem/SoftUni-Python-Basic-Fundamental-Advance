@@ -2,15 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/hardware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/factory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/factory/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/factory/paint_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/test/test_paint_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/hardware/hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/hardware/hardware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/hardware/power_hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/hardware/power_hardware.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/software/express_software.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/software/express_software.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/software/light_software.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/software/light_software.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/cross_motorcycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/cross_motorcycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/family_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/family_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/motorcycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/motorcycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/race_motorcycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/race_motorcycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/sport_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/sport_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/person/child.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/inheritance_exercise/person/child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/birds.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/birds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/mammals.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/mammals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/test_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_exercise/test_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/hardware.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/heavy_hardware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/power_hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/power_hardware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/software/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/software/express_software.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/express_software.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/software/light_software.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/light_software.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/software/software.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/software.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/system.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +75,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_16_august_2020/unit_test",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -71,15 +97,15 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_16_august_2020\unit_test" />
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_16_august_2020\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023\e_drive_rent" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\decorators_exercise\computer_store" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="paint_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/factory" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/factory/paint_factory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,83 +126,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="system (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/system.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="system" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\project\system.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for main.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;main.Test&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for main.Test.test_zero_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory.test_entry_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;main.Test.test_zero_test&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory.test_entry_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory.test_repr_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory.test_repr_method&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_paint_factory.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/test/test_paint_factory.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.system (1)" />
-        <item itemvalue="Python.system" />
-        <item itemvalue="Python tests.Python tests for main.Test.test_zero_test" />
-        <item itemvalue="Python tests.Python tests for main.Test" />
+        <item itemvalue="Python tests.Python tests in test_paint_factory.py" />
+        <item itemvalue="Python.paint_factory" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory.test_repr_method" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_16_august_2020.unit_test.test.test_paint_factory.TestPaintFactory.test_entry_data" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00124" summary=".">
-      <created>1688548371752</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1688548371753</updated>
     </task>
     <task id="LOCAL-00125" summary=".">
       <created>1688548779517</created>
@@ -532,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689491234194</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary=".">
+      <created>1689567392949</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1689567392949</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

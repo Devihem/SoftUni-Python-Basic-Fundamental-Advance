@@ -1,4 +1,4 @@
-from project import Person
+from oop.all_exams.exam_16_august_2020.unit_test.project import Person
 
 
 class Child(Person):

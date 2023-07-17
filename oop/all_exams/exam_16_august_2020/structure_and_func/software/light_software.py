@@ -1,4 +1,4 @@
-from project.software.software import Software
+from oop.all_exams.exam_16_august_2020.structure_and_func.software.software import Software
 from math import floor
 
 

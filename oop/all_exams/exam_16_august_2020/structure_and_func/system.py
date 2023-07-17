@@ -1,7 +1,7 @@
-from project.software.light_software import LightSoftware
-from project.software.express_software import ExpressSoftware
-from project.hardware.power_hardware import PowerHardware
-from project.hardware.heavy_hardware import HeavyHardware
+from oop.all_exams.exam_16_august_2020.structure_and_func.software.light_software import LightSoftware
+from oop.all_exams.exam_16_august_2020.structure_and_func.software.express_software import ExpressSoftware
+from oop.all_exams.exam_16_august_2020.structure_and_func.hardware.power_hardware import PowerHardware
+from oop.all_exams.exam_16_august_2020.structure_and_func.hardware.heavy_hardware import HeavyHardware
 
 
 class System:
@@ -18,40 +18,40 @@ class System:
 
     @staticmethod
     def register_express_software(hardware_name: str, name: str, capacity_consumption: int, memory_consumption: int):
-        searched_hardware = [hardware for hardware in System._hardware if hardware_name == hardware.name][0]
-        if not searched_hardware:
+        try:
+            searched_hardware = [hardware for hardware in System._hardware if hardware_name == hardware.name][0]
+            software_buffer_object = ExpressSoftware(name, capacity_consumption, memory_consumption)
+            searched_hardware.install(software_buffer_object)
+            System._software.append(software_buffer_object)
+
+        except IndexError:
             return "Hardware does not exist"
-
-        software_buffer_object = ExpressSoftware(name, capacity_consumption, memory_consumption)
-
-        System._software.append(software_buffer_object)
-        searched_hardware.install(software_buffer_object)
 
     @staticmethod
     def register_light_software(hardware_name: str, name: str, capacity_consumption: int, memory_consumption: int):
-        searched_hardware = [hardware for hardware in System._hardware if hardware_name == hardware.name][0]
-        if not searched_hardware:
+        try:
+            searched_hardware = [hardware for hardware in System._hardware if hardware_name == hardware.name][0]
+            software_buffer_object = LightSoftware(name, capacity_consumption, memory_consumption)
+            searched_hardware.install(software_buffer_object)
+            System._software.append(software_buffer_object)
+
+        except IndexError:
             return "Hardware does not exist"
-
-        software_buffer_object = LightSoftware(name, capacity_consumption, memory_consumption)
-
-        System._software.append(software_buffer_object)
-        searched_hardware.install(software_buffer_object)
 
     @staticmethod
     def release_software_component(hardware_name: str, software_name: str):
-        searched_hardware = [hardware for hardware in System._hardware if hardware_name == hardware.name][0]
-        searched_software = [software for software in System._software if software_name == software.name][0]
-        if searched_hardware and searched_software:
+        try:
+            searched_hardware = [hardware for hardware in System._hardware if hardware_name == hardware.name][0]
+            searched_software = [software for software in System._software if software_name == software.name][0]
             System._software.remove(searched_software)
             searched_hardware.uninstall(searched_software)
-
-        return "Some of the components do not exist"
+        except IndexError:
+            return "Some of the components do not exist"
 
     @staticmethod
     def analyze():
-        total_memory_hardware = sum([hardware.total_memory for hardware in System._hardware])
-        total_capacity_hardware = sum([hardware.total_capacity for hardware in System._hardware])
+        total_memory_hardware = sum([hardware.memory for hardware in System._hardware])
+        total_capacity_hardware = sum([hardware.capacity for hardware in System._hardware])
         total_memory_software = sum([software.memory_consumption for software in System._software])
         total_capacity_software = sum([software.capacity_consumption for software in System._software])
 
@@ -78,8 +78,8 @@ class System:
             result = f"Hardware Component - {hardware.name}\n" \
                      f"Express Software Components: {express_soft_count}\n" \
                      f"Light Software Components: {light_soft_count}\n" \
-                     f"Memory Usage: {soft_total_memory} / {hardware.total_memory}\n" \
-                     f"Capacity Usage: {soft_total_capacity} / {hardware.total_capacity}\n" \
+                     f"Memory Usage: {soft_total_memory} / {hardware.memory}\n" \
+                     f"Capacity Usage: {soft_total_capacity} / {hardware.capacity}\n" \
                      f"Type: {hardware.hardware_type}\n" \
                      f"Software Components: {soft_all_names}"
 
