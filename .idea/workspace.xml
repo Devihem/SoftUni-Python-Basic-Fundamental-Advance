@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/project/hardware/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hardware/hardware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hardware/power_hardware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/software/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/software/express_software.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/software/light_software.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/software/software.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/hardware/hardware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/hardware/heavy_hardware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/hardware/power_hardware.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/hardware/power_hardware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/software/express_software.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/software/express_software.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/software/light_software.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/software/light_software.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/system.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -80,29 +78,8 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.light_software">
-    <configuration name="light_software" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/software" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/software/light_software.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="robot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023\unit_test\robot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,55 +100,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_gt_method_for_equal_price" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="system (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/system.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="system" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\project\system.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for main.Test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_gt_method_for_equal_price&quot;" />
+      <option name="_new_target" value="&quot;main.Test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_higher_version" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for main.Test.test_zero_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_higher_version&quot;" />
+      <option name="_new_target" value="&quot;main.Test.test_zero_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.light_software" />
-        <item itemvalue="Python tests.Python tests in test.py" />
-        <item itemvalue="Python.robot" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_gt_method_for_equal_price" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_18_april_2023.unit_test.test.test.TestRobot.test_update_higher_version" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.system (1)" />
+        <item itemvalue="Python.system" />
+        <item itemvalue="Python tests.Python tests for main.Test.test_zero_test" />
+        <item itemvalue="Python tests.Python tests for main.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00123" summary=".">
-      <created>1688543815128</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1688543815128</updated>
     </task>
     <task id="LOCAL-00124" summary=".">
       <created>1688548371752</created>
@@ -527,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689489907028</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary=".">
+      <created>1689491234194</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1689491234194</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

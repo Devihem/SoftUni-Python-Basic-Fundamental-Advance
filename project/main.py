@@ -1,6 +1,6 @@
 # from system import System
-
-
+# from project.system import System
+#
 # def zero_test():
 #     System.register_power_hardware("HDD", 200, 200)
 #     System.register_heavy_hardware("SSD", 400, 400)
@@ -14,7 +14,7 @@
 #     print(System.analyze())
 #     System.release_software_component("SSD", "Linux")
 #     print(System.system_split())
-
-
+#
+#
 # if __name__ == "__main__":
 #     zero_test()
