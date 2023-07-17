@@ -1,7 +1,5 @@
-from project.player import Player
-from project.supply.food import Food
-from project.supply.drink import Drink
-from project.supply.supply import Supply
+from oop.all_exams.exam_10_april_2022.structure_and_func.player import Player
+from oop.all_exams.exam_10_april_2022.structure_and_func.supply.supply import Supply
 
 
 class Controller:
@@ -42,66 +40,37 @@ class Controller:
 
             return f"{searched_player.name} sustained successfully with {searched_supply.name}."
 
-    # ########################---CHILL-LINE---#####################################################
-
     def duel(self, first_player_name: str, second_player_name: str):
 
-        p1 = [player for player in self.players if first_player_name == player.name][0]
-        p2 = [player for player in self.players if second_player_name == player.name][0]
-
-        result = []
+        p1 = self.searching_player_by_name(first_player_name)
+        p2 = self.searching_player_by_name(second_player_name)
 
         if p1.stamina == 0 or p2.stamina == 0:
+            result = []
             if p1.stamina == 0:
                 result.append(f"Player {p1.name} does not have enough stamina.")
             if p2.stamina == 0:
                 result.append(f"Player {p2.name} does not have enough stamina.")
             return "\n".join(result)
 
-        # Battle ! if work to implement a better script ?
+        # Battle Phase
+        players_battle_order = list(sorted([p1, p2], key=lambda k: k.stamina))
 
-        # Scenario 1  P1>P2
-        if p1.stamina < p2.stamina:
+        # Round - 1
+        first_attack = players_battle_order[0].stamina / 2
+        first_defence = players_battle_order[1].stamina - first_attack
+        players_battle_order[1].stamina = first_defence
 
-            # P1 Attack
-            attack_dmg_p1 = p1.stamina / 2
-            if p2.stamina - attack_dmg_p1 <= 0:
-                p2.stamina = 0
-                return f"Winner: winner {p1.name}"
-            else:
-                p2.stamina -= attack_dmg_p1
+        # Round - 2
+        second_attack = players_battle_order[1].stamina / 2
+        second_defence = players_battle_order[0].stamina - second_attack
+        if second_defence <= 0:
+            players_battle_order[0].stamina = 0
+            return f"Winner: {players_battle_order[1].name}"
+        players_battle_order[0].stamina = second_defence
 
-            # P2 Attack
-            attack_dmg_p2 = p2.stamina / 2
-            if p1.stamina - attack_dmg_p2 <= 0:
-                p1.stamina = 0
-                return f"Winner: winner {p2.name}"
-            else:
-                p1.stamina -= attack_dmg_p2
-
-
-        # Scenario 2 P2>P1
-        elif p2.stamina < p1.stamina:
-
-            # P2 - Attack
-            attack_dmg_p2 = p2.stamina / 2
-            if p1.stamina - attack_dmg_p2 <= 0:
-                p1.stamina = 0
-                return f"Winner: winner {p2.name}"
-            else:
-                p1.stamina -= attack_dmg_p2
-
-            # P1 Attack
-            attack_dmg_p1 = p1.stamina / 2
-            if p2.stamina - attack_dmg_p1 <= 0:
-                p2.stamina = 0
-                return f"Winner: winner {p1.name}"
-            else:
-                p2.stamina -= attack_dmg_p1
-
-        # Final Result  Winner
-        winner = sorted([p1, p2], key=lambda k: k.stamina)[1]
-        return f"Winner: winner {winner.name}"
+        winner = list(sorted(players_battle_order, key=lambda k: k.stamina))[1]
+        return f"Winner: {winner.name}"
 
     def next_day(self):
         for player in self.players:

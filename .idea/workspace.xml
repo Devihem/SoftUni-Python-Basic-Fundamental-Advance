@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/supply/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/supply/drink.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/supply/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/supply/supply.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/test_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/supply/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/supply/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/drink.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/supply/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/supply/supply.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/supply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/test_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_16_august_2020/unit_test",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_10_april_2022/structure_and_func",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
@@ -72,11 +72,11 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_16_august_2020\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_16_august_2020\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023\unit_test" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023\e_drive_rent" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test_file">
@@ -92,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/controller.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func\controller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/player.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func\player.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +176,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/test_file.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func\test_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,8 +188,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_file" />
-        <item itemvalue="Python.player" />
         <item itemvalue="Python.controller" />
+        <item itemvalue="Python.player" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.drink" />
       </list>
@@ -203,13 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00126" summary=".">
-      <created>1688562775347</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1688562775347</updated>
     </task>
     <task id="LOCAL-00127" summary=".">
       <created>1688565012812</created>
@@ -547,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689580209099</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary=".">
+      <created>1689617176824</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1689617176824</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
