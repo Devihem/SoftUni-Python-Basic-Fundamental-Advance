@@ -18,7 +18,7 @@ class Room:
 
     @expenses.setter
     def expenses(self, value):
-        if float(value) < 0:
+        if value < 0:
             raise ValueError("Expenses cannot be negative")
         self.__expenses = value
 
