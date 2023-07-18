@@ -14,7 +14,6 @@ def test_one():
     young_couple_with_children = YoungCoupleWithChildren("Peterson", 600, 520, child1, child2)
     everland.add_room(young_couple)
     everland.add_room(young_couple_with_children)
-
     print(everland.get_monthly_consumptions())
     print(everland.pay())
     print(everland.status())

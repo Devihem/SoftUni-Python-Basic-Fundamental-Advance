@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/test/test_room.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/appliance.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/appliances/appliance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/everland.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/everland.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/people/child.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/people/child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/alone_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/alone_old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/alone_young.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/alone_young.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/rooms/old_couple.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/old_couple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/rooms/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/room.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/rooms/young_couple.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/young_couple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/rooms/young_couple_with_children.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/young_couple_with_children.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/test_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.room">
+  <component name="RunManager" selected="Python tests.Python tests for test_room.TestRoom">
     <configuration name="everland" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,28 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/test_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="young_couple_with_children" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/rooms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/rooms/young_couple_with_children.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\test\test_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +184,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_room.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_room.TestRoom" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,17 +194,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_room.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_room.TestRoom&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_room.TestRoom.test_calculate_expenses" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_room.TestRoom.test_calculate_expenses&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.room" />
-        <item itemvalue="Python.young_couple_with_children" />
-        <item itemvalue="Python tests.Python tests in test_room.py" />
+        <item itemvalue="Python tests.Python tests for test_room.TestRoom" />
         <item itemvalue="Python.test_file" />
+        <item itemvalue="Python.room" />
         <item itemvalue="Python.everland" />
+        <item itemvalue="Python tests.Python tests for test_room.TestRoom.test_calculate_expenses" />
       </list>
     </recent_temporary>
   </component>
@@ -237,13 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00130" summary=".">
-      <created>1688649766631</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1688649766631</updated>
     </task>
     <task id="LOCAL-00131" summary=".">
       <created>1688651426020</created>
@@ -581,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689678564536</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary=".">
+      <created>1689686056843</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1689686056843</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

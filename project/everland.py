@@ -38,14 +38,16 @@ class Everland:
         total_population = 0
         for room in self.rooms:
             total_population += room.members_count
-            current_text = []
-            current_text.append(f"{room.family_name} with {room.members_count} members."
-                                f" Budget: {room.budget:.2f}$, Expenses: {room.expenses:.2f}$")
+            current_text = [f"{room.family_name} with {room.members_count} members."
+                            f" Budget: {room.budget:.2f}$, Expenses: {room.expenses:.2f}$"]
+
             counter = 0
             for child in room.children:
                 counter += 1
-                current_text.append(f"--- Child {counter} monthly cost: {room.calculate_expenses_for_30_days_list(child):.2f}$")
+                current_text.append(
+                    f"--- Child {counter} monthly cost: {child.get_monthly_expense():.2f}$")
+
             current_text.append(f"--- Appliances monthly cost:"
-                                f" {room.calculate_expenses_for_30_days_list(*room.APPLIANCES_LIST) * room.members_count:.2f}$")
+                                f" {sum([x.get_monthly_expense() for x in room.appliances]):.2f}$")
             result.append("\n".join(current_text))
         return f"Total population: {total_population}\n" + "\n".join(result)
