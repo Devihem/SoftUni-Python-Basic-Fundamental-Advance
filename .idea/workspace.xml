@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/test.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/supply/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/supply/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/drink.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/supply/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/supply/supply.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/supply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/test_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_10_april_2022/structure_and_func",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_10_april_2022/structure_and_func&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -79,119 +74,98 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_18_april_2023\unit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_file">
-    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func\controller.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="drink" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/supply" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/supply/drink.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="player" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie.test_repr_actors" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func\player.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie.test_repr_actors&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.TestMovie.test_gt_method_1_lower" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func\test_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestMovie.test_gt_method_1_lower&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_file" />
-        <item itemvalue="Python.controller" />
-        <item itemvalue="Python.player" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.drink" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie.test_repr_actors" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" />
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00127" summary=".">
-      <created>1688565012812</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1688565012812</updated>
     </task>
     <task id="LOCAL-00128" summary=".">
       <created>1688637669190</created>
@@ -547,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689617176824</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary=".">
+      <created>1689625043543</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1689625043543</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
