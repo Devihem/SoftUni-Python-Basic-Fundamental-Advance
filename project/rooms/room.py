@@ -5,13 +5,10 @@ from project.appliances.tv import TV
 
 
 class Room:
-    ROOM_COST = 0
-
     def __init__(self, family_name: str, budget: float, members_count: int):
         self.family_name = family_name
         self.budget = budget
         self.members_count = members_count
-        self.room_cost = self.ROOM_COST
         self.children = []  # Obj list
         self.expenses = 0  # If it is set to a negative number, raise ValueError
 
@@ -21,9 +18,17 @@ class Room:
 
     @expenses.setter
     def expenses(self, value):
-        if value < 0:
+        if float(value) < 0:
             raise ValueError("Expenses cannot be negative")
         self.__expenses = value
+
+    def calculate_expenses(self, *args):
+        total_expenses = 0
+        for units_list in args:
+            for unit in units_list:
+                total_expenses += unit.get_monthly_expense()
+        # Bad patter design / the task force you to make it /
+        self.expenses = total_expenses
 
     # Helpers -------------------------------------------------------------------
 
@@ -42,11 +47,3 @@ class Room:
     @staticmethod
     def add_stove():
         return Stove()
-
-    @staticmethod
-    def calculate_expenses(*args):
-        return sum([unit.cost * 30 for unit in args])
-
-    @staticmethod
-    def calculating_expenses_total(members, appliances_list, children_list):
-        return (Room.calculate_expenses(*appliances_list) * members) + Room.calculate_expenses(*children_list)
