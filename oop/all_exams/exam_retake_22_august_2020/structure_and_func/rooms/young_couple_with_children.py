@@ -1,5 +1,4 @@
-from project.rooms.room import Room
-from project.people.child import Child
+from oop.all_exams.exam_retake_22_august_2020.structure_and_func.rooms.room import Room
 
 
 class YoungCoupleWithChildren(Room):

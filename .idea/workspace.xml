@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/people/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/alone_young.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/alone_young.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/rooms/room.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/appliances/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/appliances/appliance.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/appliance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/appliances/fridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/fridge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/appliances/laptop.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/laptop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/appliances/stove.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/stove.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/appliances/tv.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/tv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/everland.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/everland.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/people/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/people/child.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/people/child.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/alone_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/alone_old.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/alone_young.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/alone_young.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/old_couple.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/old_couple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/room.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/young_couple.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/young_couple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/rooms/young_couple_with_children.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/young_couple_with_children.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_room.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +67,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/test",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_retake_22_august_2020/structure_and_func",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
@@ -67,11 +84,11 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2020\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2022\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_16_august_2020\unit_test" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_16_august_2020\structure_and_func" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test_file (1)">
@@ -233,13 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00132" summary=".">
-      <created>1688659607209</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1688659607209</updated>
     </task>
     <task id="LOCAL-00133" summary=".">
       <created>1688713860457</created>
@@ -577,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689687821631</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary=".">
+      <created>1689689502519</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1689689502519</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

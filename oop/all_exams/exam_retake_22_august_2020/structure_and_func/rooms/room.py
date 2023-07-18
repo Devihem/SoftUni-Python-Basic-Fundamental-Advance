@@ -1,7 +1,7 @@
-from project.appliances.fridge import Fridge
-from project.appliances.laptop import Laptop
-from project.appliances.stove import Stove
-from project.appliances.tv import TV
+from oop.all_exams.exam_retake_22_august_2020.structure_and_func.appliances.fridge import Fridge
+from oop.all_exams.exam_retake_22_august_2020.structure_and_func.appliances.laptop import Laptop
+from oop.all_exams.exam_retake_22_august_2020.structure_and_func.appliances.stove import Stove
+from oop.all_exams.exam_retake_22_august_2020.structure_and_func.appliances.tv import TV
 
 
 class Room:
@@ -18,7 +18,7 @@ class Room:
 
     @expenses.setter
     def expenses(self, value):
-        if value < 0:
+        if float(value) < 0:
             raise ValueError("Expenses cannot be negative")
         self.__expenses = value
 

@@ -1,9 +1,4 @@
-from project.rooms.alone_young import AloneYoung
-from project.rooms.alone_old import AloneOld
-from project.rooms.old_couple import OldCouple
-from project.rooms.young_couple import YoungCouple
-from project.rooms.young_couple_with_children import YoungCoupleWithChildren
-from project.rooms.room import Room
+from oop.all_exams.exam_retake_22_august_2020.structure_and_func.rooms.room import Room
 
 
 class Everland:
