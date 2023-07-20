@@ -5,7 +5,6 @@ class IntegerList:
             if type(x) == int:
                 self.__data.append(x)
 
-    ############################################# MARKER
     def get_data(self):
         return self.__data
 

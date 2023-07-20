@@ -52,8 +52,6 @@ class IntegerListTest(TestCase):
         mixed = IntegerList("1", 2.2, True, 4.0, 5, 6, 7, 8, 9, 10)
         result = mixed.get(5)
         self.assertEqual(10, result)
-
-    # TODO if index is negative
     def test_insert(self):
         mixed = IntegerList("1", 2.2, True, 4.0, 5, 6, 7, 8, 9, 10)
         mixed.insert(0, 11)
