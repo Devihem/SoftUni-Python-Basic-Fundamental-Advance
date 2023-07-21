@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/base_aquarium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/freshwater_aquarium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/saltwater_aquarium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/base_decoration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/decoration_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/ornament.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/plant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/base_fish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/freshwater_fish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/saltwater_fish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/project/train/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/project/train/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests/test_train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper_oop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/testing_lab/list_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/baked_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/baked_food/baked_food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/bread.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/baked_food/bread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/cake.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/baked_food/cake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/drink/drink.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/tea.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/drink/tea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/water.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/drink/water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/inside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/table/inside_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/outside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/table/outside_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/table/table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,47 +79,68 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain">
-    <configuration name="Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.inside_table">
+    <configuration name="bread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/baked_food" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/baked_food/bread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_add_the_same_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="inside_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/table" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_add_the_same_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/table/inside_table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_remove_proper" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/table" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_remove_proper&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/table/table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_removed_missing_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -151,20 +154,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_removed_missing_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2022.unit_test.test.test.TestMovie&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -184,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inside_table" />
+        <item itemvalue="Python.table" />
+        <item itemvalue="Python.bread" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_removed_missing_name" />
         <item itemvalue="Python tests.Python tests in test_train.py" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_remove_proper" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_add_the_same_name" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain" />
       </list>
     </recent_temporary>
   </component>
@@ -200,20 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00135" summary=".">
-      <created>1688809642533</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1688809642533</updated>
-    </task>
-    <task id="LOCAL-00136" summary=".">
-      <created>1688811001918</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1688811001918</updated>
     </task>
     <task id="LOCAL-00137" summary=".">
       <created>1688824465736</created>
@@ -544,7 +519,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689752544870</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary=".">
+      <created>1689870394167</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1689870394167</updated>
+    </task>
+    <task id="LOCAL-00185" summary=".">
+      <created>1689870460827</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1689870460827</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
