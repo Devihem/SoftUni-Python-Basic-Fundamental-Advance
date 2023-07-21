@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/bakery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/test_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/pet_shop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/baked_food/baked_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/baked_food/baked_food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/baked_food/bread.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/baked_food/bread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/baked_food/cake.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/baked_food/cake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/drink/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/drink/drink.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/drink/tea.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/drink/tea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/drink/water.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/drink/water.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/table/inside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/table/inside_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/table/outside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/table/outside_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/table/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/table/table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/baked_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/baked_food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/bread.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/bread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/baked_food/cake.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/cake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/bakery.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/drink.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/drink.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/tea.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/tea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/drink/water.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/inside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/inside_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/outside_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/outside_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/table/table.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +61,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_10_april_2021/unit_test&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_15_august_2021/structure_and_func",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -72,14 +83,35 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_15_august_2021\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2021\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2021\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2020\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2020\structure_and_func" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.inside_table">
+  <component name="RunManager" selected="Python.test_data">
+    <configuration name="bakery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_15_august_2021\structure_and_func\bakery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,41 +175,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_removed_missing_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_removed_missing_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_train.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests/test_train.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_15_august_2021\structure_and_func\test_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_data" />
+        <item itemvalue="Python.bakery" />
         <item itemvalue="Python.inside_table" />
         <item itemvalue="Python.table" />
         <item itemvalue="Python.bread" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_april_2021.unit_test.tests.test_train.TestTrain.test_removed_missing_name" />
-        <item itemvalue="Python tests.Python tests in test_train.py" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00137" summary=".">
-      <created>1688824465736</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1688824465736</updated>
     </task>
     <task id="LOCAL-00138" summary=".">
       <created>1688826582981</created>
@@ -533,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689870460827</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary=".">
+      <created>1689931048160</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1689931048160</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

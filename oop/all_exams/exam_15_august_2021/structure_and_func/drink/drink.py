@@ -40,4 +40,4 @@ class Drink(ABC):
         self.__brand = value
 
     def __repr__(self):
-        return f" - {self.name} {self.brand} - {self.portion}ml - {self.price}lv"
+        return f" - {self.name} {self.brand} - {self.portion:.2f}ml - {self.price:.2f}lv"

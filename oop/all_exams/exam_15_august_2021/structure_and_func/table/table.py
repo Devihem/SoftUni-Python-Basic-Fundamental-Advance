@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class Table(ABC):
     def __init__(self, table_number: int, capacity: int):
         self.table_number = table_number
@@ -25,11 +26,11 @@ class Table(ABC):
         self.__capacity = value
 
     def reserve(self, number_of_people: int):
-        self.capacity = number_of_people
+        self.number_of_people = number_of_people
         self.is_reserved = True
 
-    def order_food(self, baked_food):
-        self.food_orders.append(baked_food)
+    def order_food(self, baked_food_obj):
+        self.food_orders.append(baked_food_obj)
 
     def order_drink(self, drink):
         self.drink_orders.append(drink)
@@ -40,8 +41,8 @@ class Table(ABC):
         return total_drinks_price + total_food_price
 
     def clear(self):
-        self.food_orders = []
-        self.drink_orders = []
+        self.food_orders.clear()
+        self.drink_orders.clear()
         self.number_of_people = 0
         self.is_reserved = False
 
