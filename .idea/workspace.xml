@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/pet_shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/pet_shop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/astronaut/astronaut.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/astronaut/astronaut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/astronaut/astronaut_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/astronaut/astronaut_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/astronaut/biologist.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/astronaut/biologist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/astronaut/geodesist.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/astronaut/geodesist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/astronaut/meteorologist.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/astronaut/meteorologist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_15_august_2021/structure_and_func",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_15_august_2021/unit_test&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -65,14 +68,14 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_15_august_2021\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_15_august_2021\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2021\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_april_2021\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2020\unit_test" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2020\structure_and_func" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for oop.all_exams.exam_15_august_2021.unit_test.test.test.TestPetShop">
     <configuration name="Python tests for oop.all_exams.exam_15_august_2021.unit_test.test.test.TestPetShop" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00139" summary=".">
-      <created>1688827088938</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1688827088938</updated>
     </task>
     <task id="LOCAL-00140" summary=".">
       <created>1688839387456</created>
@@ -505,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689944348956</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary=".">
+      <created>1689947985833</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1689947985833</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
