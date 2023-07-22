@@ -1,6 +1,3 @@
-from project.planet.planet import Planet
-
-
 class PlanetRepository:
     def __init__(self):
         self.planets = []

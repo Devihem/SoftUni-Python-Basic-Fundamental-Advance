@@ -1,4 +1,4 @@
-from project.astronaut.astronaut import Astronaut
+from oop.all_exams.exam_retake_23_august_2021.structure_and_func.astronaut.astronaut import Astronaut
 
 
 class Meteorologist(Astronaut):
