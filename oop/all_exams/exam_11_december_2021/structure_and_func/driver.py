@@ -10,6 +10,6 @@ class Driver:
 
     @name.setter
     def name(self, value):
-        if value.strip():
+        if not value.strip():
             raise ValueError("Name should contain at least one character!")
         self.__name = value

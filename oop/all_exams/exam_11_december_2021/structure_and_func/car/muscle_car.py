@@ -1,4 +1,4 @@
-from project.car.car import Car
+from oop.all_exams.exam_11_december_2021.structure_and_func.car.car import Car
 
 
 class MuscleCar(Car):
