@@ -1,5 +1,3 @@
-x = [1, 2, 3, 4, 5]
-
-
-x = sorted(x , key=lambda k: -k)
-print(x)
+x = 'a sda sd'
+z = x.replace("a","z")
+print(z)
