@@ -26,7 +26,7 @@ class MovieApp:
             raise Exception("Movie already added to the collection!")
 
         if movie_obj.owner != username_obj:  # - WHY THIS ISN'T WORKING ???
-            # if movie_obj.owner.username != username:
+        # if movie_obj.owner.username != username:
             raise Exception(f"{username} is not the owner of the movie {movie_obj.title}!")
 
         self.movies_collection.append(movie_obj)
