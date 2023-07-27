@@ -58,6 +58,8 @@ class Bookstore:
         self.__total_sold_books += number_of_books
         return f"Sold {number_of_books} copies of {book_title}"
 
+
+
     def __str__(self):
         result = [f"Total sold books: {self.total_sold_books}"]
         result.append(f'Current availability: {len(self)}')
