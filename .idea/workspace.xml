@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/plantation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/test/test_plantation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_fixed.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_race.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_race_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/appaloosa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/horse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/thoroughbred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/jockey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/test_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/spoopify.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/horse_race.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/horse_race_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/horse_specification/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/horse_specification/appaloosa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/horse_specification/horse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/horse_specification/thoroughbred.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/jockey.py" beforeDir="false" />
     </list>
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,17 +61,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_retake_18_april_2022/unit_test&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_14_august_2022/structure_and_func",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -82,7 +91,28 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_11_december_2021\structure_and_func" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_len_dunder_calculation">
+  <component name="RunManager" selected="Python.horse_race_app">
+    <configuration name="horse_race_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_14_august_2022\structure_and_func\horse_race_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\project\test_data.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_14_august_2022\structure_and_func\test_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,20 +162,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_planting_plantation_with_not_hired_worker" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_planting_plantation_with_not_hired_worker&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_repr_dunder_printing" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,27 +176,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_repr_dunder_printing_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_repr_dunder_printing_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.horse_race_app" />
+        <item itemvalue="Python.test_data" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_len_dunder_calculation" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_repr_dunder_printing" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_repr_dunder_printing_2" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_18_april_2022.unit_test.test.test_plantation.TestPlantation.test_planting_plantation_with_not_hired_worker" />
       </list>
     </recent_temporary>
   </component>
@@ -196,20 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00151" summary=".">
-      <created>1689073626757</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1689073626757</updated>
-    </task>
-    <task id="LOCAL-00152" summary=".">
-      <created>1689083440645</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1689083440645</updated>
     </task>
     <task id="LOCAL-00153" summary=".">
       <created>1689089781648</created>
@@ -540,7 +528,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690345926044</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary=".">
+      <created>1690369519945</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1690369519945</updated>
+    </task>
+    <task id="LOCAL-00201" summary=".">
+      <created>1690370044551</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1690370044551</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
