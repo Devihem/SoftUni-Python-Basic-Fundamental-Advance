@@ -1,5 +1,7 @@
-movies = [[1901 , "A"],[1900 , "Z"],[1900 , "A"],[1900 , "B"],[12200 , "A"]]
+x = '213213a12312'
 
-result = sorted(movies, key=lambda k: (-k[0], k[1]))
-result = [movie.details() for movie in result]
-result = [] if not result else result
+z = f"dadsad {x} asdsadasdas"
+
+x = ""
+
+print(type(z))
