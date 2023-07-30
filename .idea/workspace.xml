@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/booth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/open_booth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/private_booth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/christmas_pastry_shop_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/delicacy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/gingerbread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/stolen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/test/test_toy_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/toy_store.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/booths/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/booths/booth.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/booths/open_booth.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/booths/private_booth.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/christmas_pastry_shop_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/delicacies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/delicacies/delicacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/delicacies/gingerbread.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/delicacies/stolen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/band.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/band_members/drummer.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/band_members/drummer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/band_members/guitarist.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/band_members/guitarist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/band_members/musician.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/band_members/musician.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/band_members/singer.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/band_members/singer.py" afterDir="false" />
     </list>
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +81,28 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_14_august_2022\unit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_correct_1">
+  <component name="RunManager" selected="Python.band">
+    <configuration name="band" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/band.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_correct_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,20 +114,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_correct_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_shelf_is_taken" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_shelf_is_taken&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -168,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.band" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_remove_toy_correct_1" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_remove_toy" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_correct_1" />
         <item itemvalue="Python tests.Python tests in test_toy_store.py" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_10_december_2022.unit_test.test.test_toy_store.TestToyStore.test_add_toy_shelf_is_taken" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00156" summary=".">
-      <created>1689096775067</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1689096775067</updated>
     </task>
     <task id="LOCAL-00157" summary=".">
       <created>1689101137963</created>
@@ -532,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690532964038</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary=".">
+      <created>1690569490703</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1690569490703</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
