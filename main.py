@@ -1,7 +1,3 @@
-x = '213213a12312'
-
-z = f"dadsad {x} asdsadasdas"
-
-x = ""
-
-print(type(z))
+test = (1, 2, 3, 4, 5, 6)
+print(sum(test))
+print(sum(*test))
