@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/concert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/concert_tracker_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/test/test_truck_driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/truck_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band_members/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band_members/drummer.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/drummer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band_members/guitarist.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/guitarist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band_members/musician.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/musician.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/band_members/singer.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/singer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/concert.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/concert_tracker_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/base_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/robots/base_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/female_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/robots/female_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/male_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/robots/male_robot.py" afterDir="false" />
     </list>
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +72,11 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_december_2022\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_december_2022\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2022\unit_test" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2022\structure_and_func" />
     </key>
   </component>
   <component name="RunManager">
@@ -192,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00158" summary=".">
-      <created>1689142364352</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1689142364352</updated>
     </task>
     <task id="LOCAL-00159" summary=".">
       <created>1689143141474</created>
@@ -536,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690714386333</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary=".">
+      <created>1690811794606</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1690811794606</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
