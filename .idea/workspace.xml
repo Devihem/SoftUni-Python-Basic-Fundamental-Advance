@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots_managing_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/test_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/services/base_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/services/base_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/services/main_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/services/main_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/services/secondary_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/services/secondary_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/base_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/base_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/female_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/female_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots/male_robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/male_robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/robots_managing_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/services/base_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/base_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/services/main_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/main_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/services/secondary_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/secondary_service.py" afterDir="false" />
     </list>
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +64,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_retake_19_december_2022/unit_test",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_8_april_2023/structure_and_func",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "vcs.Git"
   }
@@ -72,14 +81,14 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_8_april_2023\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_december_2022\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_december_2022\structure_and_func" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_22_august_2022\unit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_service">
+  <component name="RunManager" selected="Python.test_data">
     <configuration name="main_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,18 +110,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_add_cargo_offer_correct" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="robots_managing_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_add_cargo_offer_correct&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_8_april_2023\structure_and_func\robots_managing_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_8_april_2023\structure_and_func\test_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_drive_best_cargo_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -143,27 +180,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_dunder_repr" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_dunder_repr&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_data" />
+        <item itemvalue="Python.robots_managing_app" />
         <item itemvalue="Python.main_service" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_drive_best_cargo_2" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_drive_best_cargo_1" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_add_cargo_offer_correct" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_retake_19_december_2022.unit_test.test.test_truck_driver.TestTruckDriver.test_dunder_repr" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00160" summary=".">
-      <created>1689151727277</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1689151727279</updated>
     </task>
     <task id="LOCAL-00161" summary=".">
       <created>1689152491204</created>
@@ -523,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690814621414</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary=".">
+      <created>1690816688610</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1690816688610</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
