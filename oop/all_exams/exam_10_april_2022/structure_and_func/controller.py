@@ -24,6 +24,7 @@ class Controller:
 
         # Check-1 - If there is no player - Ignore ! & Check-2 - If there is other supply type - Ignore !
         if searched_player and sustenance_type in ['Food', 'Drink']:
+
             if not searched_player.need_sustenance:  # Check-3 - If player don't need sustenance - Return msg
                 return f"{searched_player.name} have enough stamina."
 
@@ -95,7 +96,7 @@ class Controller:
 
         return '\n'.join(result)
 
-    # Helpers
+    # HELPERS ----------------------------------------------------------------------------
     def searching_player_by_name(self, player_name):
         for player in self.players:
             if player.name == player_name:
