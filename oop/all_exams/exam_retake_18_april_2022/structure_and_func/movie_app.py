@@ -6,7 +6,6 @@ class MovieApp:
         self.movies_collection = []  # obj
         self.users_collection = []  # obj
 
-    # REGISTER - OK
     def register_user(self, username: str, age: int):
         if self.searching_user_by_username(username):
             raise Exception("User already exists!")
@@ -15,7 +14,6 @@ class MovieApp:
         self.users_collection.append(created_user)
         return f"{username} registered successfully."
 
-    # UPLOAD - OK
     def upload_movie(self, username: str, movie_obj):
         username_obj = self.searching_user_by_username(username)
 
@@ -25,15 +23,13 @@ class MovieApp:
         if movie_obj in self.movies_collection:
             raise Exception("Movie already added to the collection!")
 
-        if movie_obj.owner != username_obj:  # - WHY THIS ISN'T WORKING ???
-        # if movie_obj.owner.username != username:
+        if movie_obj.owner.username != username:
             raise Exception(f"{username} is not the owner of the movie {movie_obj.title}!")
 
         self.movies_collection.append(movie_obj)
         username_obj.movies_owned.append(movie_obj)
         return f"{username} successfully added {movie_obj.title} movie."
 
-    # EDIT - OK
     def edit_movie(self, username: str, movie_obj, **kwargs):
         username_obj = self.searching_user_by_username(username)
 
@@ -48,7 +44,6 @@ class MovieApp:
 
         return f"{username} successfully edited {movie_obj.title} movie."
 
-    # DELETE - OK
     def delete_movie(self, username: str, movie_obj):
 
         username_obj = self.searching_user_by_username(username)
@@ -56,7 +51,6 @@ class MovieApp:
         if movie_obj not in self.movies_collection:
             raise Exception(f"The movie {movie_obj.title} is not uploaded!")
 
-        # if movie_obj.owner != username_obj: # - WHY THIS METHOD ISN'T WORKING ???
         if movie_obj.owner.username != username:
             raise Exception(f"{username} is not the owner of the movie {movie_obj.title}!")
 
@@ -64,13 +58,11 @@ class MovieApp:
         username_obj.movies_owned.remove(movie_obj)
         return f"{username} successfully deleted {movie_obj.title} movie."
 
-    # LIKE - OK
     def like_movie(self, username: str, movie_obj):
 
         username_obj = self.searching_user_by_username(username)
 
-        if movie_obj.owner == username_obj:  # - WHY THIS METHOD ISN'T WORKING ???
-        # if movie_obj.owner.username == username:
+        if movie_obj.owner.username == username:
             raise Exception(f"{username} is the owner of the movie {movie_obj.title}!")
 
         if movie_obj in username_obj.movies_liked:
@@ -79,9 +71,6 @@ class MovieApp:
         movie_obj.likes += 1
         username_obj.movies_liked.append(movie_obj)
         return f"{username} liked {movie_obj.title} movie."
-
-    #
-    # DISLIKE - OK
 
     def dislike_movie(self, username: str, movie_obj):
         username_obj = self.searching_user_by_username(username)
@@ -93,17 +82,15 @@ class MovieApp:
         username_obj.movies_liked.remove(movie_obj)
         return f"{username} disliked {movie_obj.title} movie."
 
-    # DISPLAY  - OK
     def display_movies(self):
         result = "No movies found."
 
         if self.movies_collection:
-            result = sorted(self.movies_collection, key=lambda k: (-k.year, k.title))
+            result = sorted(self.movies_collection, key=lambda k: (-k.year, k.title()))
             result = '\n'.join([movie.details() for movie in result])
 
         return result
 
-    # STR - OK
     def __str__(self):
         users = "All users: No users."
         if self.users_collection:
