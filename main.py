@@ -1,4 +1,6 @@
-x = "pyhon "
-print(x.strip())
+x = "python"
 
-print(x.title())
+if x == "python":
+    print("1", x.title())
+
+print("2", x.title())

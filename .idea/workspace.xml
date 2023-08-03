@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/movie_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/movie_specification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/movie_specification/action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/movie_specification/fantasy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/movie_specification/movie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/movie_specification/thriller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +78,7 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_december_2022\unit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_data (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="abstract_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,9 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.test_data (1)" />
         <item itemvalue="Python.movie_app" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.abstract_factory" />
         <item itemvalue="Python.test_data" />
       </list>
@@ -216,13 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00166" summary=".">
-      <created>1689337518893</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1689337518893</updated>
     </task>
     <task id="LOCAL-00167" summary=".">
       <created>1689337623393</created>
@@ -560,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690963898729</updated>
     </task>
-    <option name="localTasksCounter" value="215" />
+    <task id="LOCAL-00215" summary=".">
+      <created>1691045370044</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1691045370044</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
