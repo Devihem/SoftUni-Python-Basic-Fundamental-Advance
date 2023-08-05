@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/oop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/bank_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/adult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/base_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/base_loan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/mortgage_loan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/student_loan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/test_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/second_hand_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -36,7 +54,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2R3FlQagxRRhIoBaaH794DDRqf7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,7 +71,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_5_august_2023/test_case&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
@@ -71,126 +89,91 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_5_august_2023\test_case" />
+      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_5_august_2023\main_task" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_8_april_2023\unit_test" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_8_april_2023\structure_and_func" />
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\unit_test" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\structure_and_func" />
-      <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_10_december_2022\unit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="abstract_factory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test.py">
+    <configuration name="Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/design_patterns_lab" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/design_patterns_lab/abstract_factory.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="movie_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/test_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/test_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test_data (1)" />
-        <item itemvalue="Python.movie_app" />
-        <item itemvalue="Python.abstract_factory" />
-        <item itemvalue="Python.test_data" />
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_2" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_1" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_4" />
+        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_3" />
       </list>
     </recent_temporary>
   </component>
@@ -206,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00167" summary=".">
-      <created>1689337623393</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1689337623393</updated>
     </task>
     <task id="LOCAL-00168" summary=".">
       <created>1689339570736</created>
@@ -550,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691045370044</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary=".">
+      <created>1691158729955</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1691158729956</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

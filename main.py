@@ -1,30 +1,4 @@
-x = "python"
-
-if x == "python":
-    print("1", x.title())
-
-print("2", x.title())
-x = "python"
-
-if x == "python":
-    print("1", x.title())
-
-print("2", x.title())
-x = "python"
-
-if x == "python":
-    print("1", x.title())
-
-print("2", x.title())
-x = "python"
-
-if x == "python":
-    print("1", x.title())
-
-print("2", x.title())
-x = "python"
-
-if x == "python":
-    print("1", x.title())
-
-print("2", x.title())
+x = "1234567890"
+print(len(x))
+if len(x) == 10:
+    print("WORK")
