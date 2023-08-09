@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment="." />
+    <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/text.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/.idea/soft_uni_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/.idea/soft_uni_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/main.py" afterDir="false" />
+    </list>
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python_basic_fundamental_advance",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="Push.Settings">
@@ -75,7 +80,28 @@
       <recent name="C:\Users\User1\PycharmProjects\soft_uni_python\oop\all_exams\exam_retake_19_december_2022\unit_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="soft_uni_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="soft_uni_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,20 +121,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_4" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="soft_uni_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -155,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests in C:/Users/User1/PycharmProjects/soft_uni_python/oop/all_exams/exam_5_august_2023/test_case/test/test.py" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_2" />
         <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_str_1" />
-        <item itemvalue="Python tests.Python tests for oop.all_exams.exam_5_august_2023.test_case.test.test.TestSecondHandCar.test_dunder_gt_4" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00173" summary=".">
-      <created>1689567392949</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1689567392949</updated>
     </task>
     <task id="LOCAL-00174" summary=".">
       <created>1689580209099</created>
@@ -519,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691621660764</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary=".">
+      <created>1691621863760</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1691621863760</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
