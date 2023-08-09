@@ -1,513 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Python.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Softuni_logo_trasparent-1536x291.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/base_aquarium.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/freshwater_aquarium.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/aquarium/saltwater_aquarium.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/base_decoration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/decoration_repository.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/ornament.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/decoration/plant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/base_fish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/freshwater_fish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/fish/saltwater_fish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/project/train/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/project/train/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2021/unit_test/tests/test_train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/drink.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/supply/supply.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/structure_and_func/test_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/movie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_april_2022/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/booth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/open_booth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/booths/private_booth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/christmas_pastry_shop_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/delicacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/gingerbread.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/delicacies/stolen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/test/test_toy_store.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_10_december_2022/unit_test/toy_store.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/car/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/car/car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/car/muscle_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/car/sports_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/controller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/race.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/unit_test/project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/unit_test/project/team.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_11_december_2021/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_race.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_race_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/appaloosa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/horse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/horse_specification/thoroughbred.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/jockey.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/unit_test/bookstore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_14_august_2022/unit_test/test/test_bookstore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/baked_food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/bread.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/baked_food/cake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/bakery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/drink.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/tea.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/drink/water.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/inside_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/outside_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/table/table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/unit_test/pet_shop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_15_august_2021/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/hardware.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/heavy_hardware.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/hardware/power_hardware.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/express_software.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/light_software.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/software/software.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/structure_and_func/system.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/factory/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/factory/factory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/project/factory/paint_factory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_16_august_2020/unit_test/test/test_paint_factory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/managing_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/route.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/vehicles/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/vehicles/base_vehicle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/vehicles/cargo_van.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/e_drive_rent/vehicles/passenger_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/robot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_18_april_2023/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/bank_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/adult.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/base_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/clients/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/base_loan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/mortgage_loan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/loans/student_loan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/main_task/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/second_hand_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_5_august_2023/test_case/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/base_robot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/female_robot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots/male_robot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/robots_managing_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/base_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/main_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/services/secondary_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/unit_test/tennis_player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_8_april_2023/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_specification/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_specification/action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_specification/fantasy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_specification/movie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/movie_specification/thriller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/structure_and_func/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/plantation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_18_april_2022/unit_test/test/test_plantation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/drummer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/guitarist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/musician.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/band_members/singer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/concert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/concert_tracker_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/test/test_truck_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_19_december_2022/unit_test/truck_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/appliance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/fridge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/laptop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/stove.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/appliances/tv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/everland.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/people/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/people/child.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/alone_old.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/alone_young.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/old_couple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/young_couple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/structure_and_func/rooms/young_couple_with_children.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/unit_test/student_report_card.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2020/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/food_orders_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/meals/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/meals/dessert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/meals/main_dish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/meals/meal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/meals/starter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/unit_test/shopping_cart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_22_august_2022/unit_test/test/test_shopping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/astronaut/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/astronaut/astronaut.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/astronaut/astronaut_repository.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/astronaut/biologist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/astronaut/geodesist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/astronaut/meteorologist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/planet/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/planet/planet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/planet/planet_repository.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/space_station.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/structure_and_func/test_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/unit_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/unit_test/library.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/unit_test/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/all_exams/exam_retake_23_august_2021/unit_test/test/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/account.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/pizza_delivery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_guild_system/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_guild_system/guild.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_guild_system/player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/library.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/registration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_library/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_spoopify/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_spoopify/album.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_spoopify/band.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_spoopify/song.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_to_do_list/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_to_do_list/section.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/project_to_do_list/task.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_exercise/vet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/circle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/glass.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/point.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/smartphone.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/classes_and_objects_lab/vehicle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/bold__italic__underline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_store_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/computer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/desktop_computer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/computer_store/computer_types/laptop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/even_parameters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/execution_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/html_tags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/logged.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/results" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/store_results.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_exercise/type_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_lab/even_numbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_lab/multiply.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_lab/number_increment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/decorators_lab/vowel_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/player.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/team.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/football_team_generator/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/dough.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/pizza.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/pizza_maker/topping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/beverage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/coffee.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/cold_beverage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/hot_beverage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/beverage/tea.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/cake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/dessert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/main_dish.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/salmon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/soup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/food/starter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/restaurant/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/caretaker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/cheetah.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/keeper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/lion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/tiger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/vet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/worker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_exercise/wild_cat_zoo/zoo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/account.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/email_validator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/mammal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/person.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/encapsulation_lab/profile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/file_creator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/cup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/employee.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/flower.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/hero.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/pokemon_battle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/programmer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/project/pokemon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/project/trainer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/shop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_exercise/steam_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/class_book.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/music.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/rhombus_of_stars.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/first_steps_in_oop_lab/scope_mess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/cross_motorcycle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/family_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/motorcycle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/race_motorcycle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/sport_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/need_for_speed/vehicle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/person/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/person/child.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/person/person.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/blade_knight.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/dark_knight.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/dark_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/elf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/hero.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/knight.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/muse_elf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/soul_master.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/players_and_monsters/wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/shop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/shop/drink.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/shop/food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/shop/product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/shop/product_repository.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/bear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/gorilla.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/lizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/mammal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/reptile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_exercise/zoo/snake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/food_project/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/food_project/food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/food_project/fruit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/hierarchical_inheritance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/hierarchical_inheritance/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/hierarchical_inheritance/cat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/hierarchical_inheritance/dog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multilevel_inheritance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multilevel_inheritance/car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multilevel_inheritance/sports_car.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multilevel_inheritance/vehicle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multiple_inheritance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multiple_inheritance/employee.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multiple_inheritance/person.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/multiple_inheritance/teacher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/single_inheritance/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/single_inheritance/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/single_inheritance/dog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/inheritance_lab/stack_of_strings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/countdown_iterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/dictionary_iterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/fibonacci_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/possible_permutations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/prime_numbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/reader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/sequence_repeat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/take_halves.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_exercise/take_skip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/custom_range.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/generator_range.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/reverse_iter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/reverse_string.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/squares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/iterators_and_generators_lab/vowels.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/account.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/animals/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/animals/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/animals/cat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/animals/dog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/animals/kitten.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/animals/tomcat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/f1_season_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/formula_teams/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/formula_teams/formula_team.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/formula_teams/mercedes_team.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/formula_1_manager/formula_teams/red_bull_team.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/groups.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/vehicles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/birds.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/animals/mammals.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_exercise/wild_farm/food.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_lab/image_area.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_lab/playing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_lab/robots.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/polymorphism_and_abstraction_lab/shapes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_exercise/emails.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_exercise/prisoner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_exercise/shapes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_exercise/workers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_exercise/workers_updated.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/01_SRP/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/01_SRP/books.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/02_OCP/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/02_OCP/animal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/03_LSP/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/03_LSP/ducks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/04_ISP/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/04_ISP/entertainment_system.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/05_DIP/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/solid_lab/05_DIP/print_books.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/document_management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/document_management/category.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/document_management/document.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/document_management/storage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/document_management/topic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/customer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/equipment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/exercise_plan.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/gym.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/subscription.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/gym/trainer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/movie_world/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/movie_world/customer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/movie_world/dvd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/movie_world/movie_world.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/movie_world/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_exercise/photo_album.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/hotel_rooms/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/hotel_rooms/hotel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/hotel_rooms/room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/hotel_rooms/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/integer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/static_and_class_methods_lab/shop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/test_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/hero.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/mammal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/test_hero.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/test_mammal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/test_student.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/test_vehicle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_exercise/vehicle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/car_manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/car_manager_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/cat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/cat_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/list_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/worker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/testing_lab/worker_test.py" beforeDir="false" />
-    </list>
+    <list default="true" id="aa13ffd8-143c-490d-809e-a2aeb8c1f361" name="Changes" comment="." />
     <list id="f5294e03-3ac9-4663-9063-4dc719efb043" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -528,12 +22,12 @@
     <option name="NEW_BASE" value="main/main" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/codecs.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/3_advance/3_exercise_more_multidimensional_lists/6_range_day.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../soft_uni_python_basic_fundamental_advance/3_advance/3_exercise_more_multidimensional_lists/6_range_day.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -550,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User1/PycharmProjects/soft_uni_python&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/User1/PycharmProjects/soft_uni_python_basic_fundamental_advance",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="SoftUni_Python" branch="main" />
@@ -681,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686471008562</updated>
-    </task>
-    <task id="LOCAL-00172" summary=".">
-      <created>1689491234194</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1689491234194</updated>
     </task>
     <task id="LOCAL-00173" summary=".">
       <created>1689567392949</created>
@@ -1025,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691467785954</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary=".">
+      <created>1691621660764</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1691621660764</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
