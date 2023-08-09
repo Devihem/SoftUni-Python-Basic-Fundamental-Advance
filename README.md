@@ -1,6 +1,6 @@
 [![SoftUni-Logo](https://raw.githubusercontent.com/Devihem/SoftUni_Solutions_Python_Basic_Fundamental_Advance/main/Softuni_logo_trasparent-1536x291.png)](https://softuni.bg/curriculum)
 
-## Python - Basic - Course - 2022  ‎ ‎ ‎ ‎ ‎‎‎ ‎‎‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎‎ ‎ ‎ ‎‎‎ [[ LINK: CERTIFICATE & GRADE:](https://softuni.bg/certificates/details/145099/7b9cfdea)  A+ / 6.00 ]<br>Python - Fundamental - Course - 2023  ‎ ‎‎‎ [[ LINK: CERTIFICATE & GRADE:](https://softuni.bg/certificates/details/166759/4caf35ec)  A+ / 6.00 ]<br>Python - Advance - Course - 2023      ‎ ‎ ‎‎‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎  ‎‎‎[[ LINK: CERTIFICATE & GRADE:](https://softuni.bg/certificates/details/173782/dd779c24)  A+ / 6.00 ]
+### Python - Basic - Course - 2022  ‎ ‎ ‎ ‎ ‎‎‎ ‎‎‎ ‎ ‎ ‎ ‎‎‎ ‎ ‎‎‎ ‎ ‎ ‎‎‎ [[ LINK: CERTIFICATE & GRADE:](https://softuni.bg/certificates/details/145099/7b9cfdea)  A+ / 6.00 ]<br>Python - Fundamental - Course - 2023  ‎ ‎‎‎ [[ LINK: CERTIFICATE & GRADE:](https://softuni.bg/certificates/details/166759/4caf35ec)  A+ / 6.00 ]<br>Python - Advance - Course - 2023      ‎ ‎ ‎‎‎ ‎ ‎ ‎‎‎ ‎ ‎‎ ‎ ‎  ‎‎‎[[ LINK: CERTIFICATE & GRADE:](https://softuni.bg/certificates/details/173782/dd779c24)  A+ / 6.00 ]
 
 <br>
 
