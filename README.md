@@ -5,15 +5,16 @@
 <br>
 
 ‎ ‎ ‎‎‎ ‎ ‎ ‎‎‎ This repository contains all assignments and problems included in the courses and all extra tasks. It also contains all additional exams that exist for the current period. Created for preview or to help other students taking the same courses.
-## About the courses:
 
-### Basic:
+## About the course:
+
+### Basic [[LINK: COURSE INFO]([https://softuni.bg/courses/python-oop](https://softuni.bg/courses/programming-basics))]:
 
 - [x] Conditional statements.
 - [x] For & While loops.
 - [x] Nested Loops.
 
-### Fundamental:
+### Fundamental [[LINK: COURSE INFO](https://softuni.bg/courses/programming-fundamentals-csharp-java-js-python)]:
 
 - [x] Data Types.
 - [x] List (+ Nested)
@@ -21,7 +22,7 @@
 - [x] Dictionaries (+ Nested).
 - [x] Regex (love it).
 
-### Advance:
+### Advance  [[LINK: COURSE INFO](https://softuni.bg/modules/74/python-advanced/1446)]:
 
 - [x] Stacks and Queues.
 - [x] Tuples and Sets.
